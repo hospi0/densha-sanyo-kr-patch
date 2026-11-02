@@ -130,6 +130,35 @@ def left_align(n, x0=2):
     return o
 
 
+
+def vib_button(a, t):
+    """진동 설정 버튼(100×32, 밝은/어두운 버튼 둘): 남색 한자만 지우고(줄마다 버튼 바탕색) 같은 남색으로 한글(2026-11-02 하스피 «약중강»)"""
+    o = a.copy(); rgb = a[..., :3].astype(int); lm = rgb.mean(2); op = a[..., 3] > 200
+    navy = op & (lm < 110) & (rgb[..., 2] >= rgb[..., 0] + 45)                 # 글자 남색 b−r≥45 · 어두운 버튼 바탕은 b−r≈33
+    im = None; cols = []
+    for x0, x1 in ((10, 38), (58, 88)):
+        ink = np.zeros_like(navy); ink[5:27, x0:x1] = navy[5:27, x0:x1]
+        for y in range(3, 28):                                                   # 글자 둘레 밝은 테(줄 바탕보다 25↑ 밝은 화소)도 지울 것 — 강 위 찌꺼기(2026-11-02)
+            rr = lm[y, x0:x1][op[y, x0:x1] & ~navy[y, x0:x1]]
+            if len(rr):
+                hl = op[y, x0:x1] & (lm[y, x0:x1] > np.median(rr) + 25)
+                if hl.sum() <= 8: ink[y, x0:x1] |= hl
+        ys, xs = np.nonzero(ink)
+        if not len(ys): continue
+        cols.append(np.median(a[ink][:, :3], axis=0)); bx = (int(xs.min()) - 3, int(ys.min()) - 2, int(xs.max()) + 4, int(ys.max()) + 3)   # 번짐까지
+        import cv2
+        near = cv2.dilate((navy | ink).astype(np.uint8), np.ones((5, 5), np.uint8)).astype(bool)
+        for y in range(bx[1], bx[3]):                                            # 줄마다 버튼 안 «글자에서 2px 이상 떨어진» 바탕 중앙값
+            r_ = a[y, x0:x1][op[y, x0:x1] & ~near[y, x0:x1]]
+            if not len(r_): r_ = a[y, bx[0] - 1:bx[0]]                              # 버튼 윗단(줄이 짧음): 상자 바로 왼쪽 화소
+            if len(r_): o[y, bx[0]:bx[2]] = np.median(r_, axis=0).astype(np.uint8)
+        cols[-1] = (cols[-1], ((bx[0] + bx[2]) / 2, (bx[1] + bx[3]) / 2), bx[3] - bx[1])
+    im = Image.fromarray(o)
+    for c, (cx, cy), hh in cols:
+        m = T.fit(t, 22, min(17, hh), T.JUA); T.draw(im, m, int(cx - m.width / 2), int(cy - m.height / 2), (22, 28, 84), None, 0, None)   # 원본 남색(밝은·어두운 버튼 같은 색)
+    return np.asarray(im)
+
+
 HILITE = {'・ATCの予告': '없습니다', '・ATCブレーキが作動しても': '감점되지 않습니다', '・ATCブレーキが作動すると': '감점됩니다'}
 
 

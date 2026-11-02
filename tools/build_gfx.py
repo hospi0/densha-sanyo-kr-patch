@@ -228,6 +228,10 @@ def main():
                 for tx in range((x0 - 3) // 8, (x1 + 3) // 8 + 1):
                     q_ = im[3] + (ty * (im[0] // 8) + tx) * 32; d[q_:q_ + 32] = t_[q_:q_ + 32]
         print('시계판', p)
+    for o_, t in ((0x54BA60, '약'), (0x54C9C0, '중'), (0x54D920, '강')):              # 진동 설정 弱中強(2026-11-02)
+        p = 'menu/nTplCommon.dat/%07X_0_100x32_f9.png' % o_; a = np.asarray(Image.open(os.path.join(TEX, p)).convert('RGBA')).copy()
+        for r_, oo, j_ in [('menu/nTplCommon.dat', o_, 0)] + dup.get(p, []):
+            d = buf(r_); enc_index(d, tpl.images(bytes(d), oo)[j_], S2.vib_button(a, t))
     HS = 'menu/nTplCommon.dat/02EC560_0_116x52_f8.png'                          # 정보 화면 하이스코어 칸의 点(img_map 누락, 2026-11-02)
     a = np.asarray(Image.open(os.path.join(TEX, HS)).convert('RGBA')).copy(); S2.mark(a.copy(), (78, 17, 102, 42), 62, '점', 17, S2.bright(a, (80, 19, 100, 40)), (90, 30))
     for r_, o_, j_ in [('menu/nTplCommon.dat', 0x2EC560, 0)] + dup.get(HS, []):
