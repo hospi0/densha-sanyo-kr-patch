@@ -912,3 +912,6 @@ system/warntpl.dat/00077E0_0_368x46_f8.png	Wii リモコンにヌンチャクが
 system/warntpl.dat/0009AE0_0_456x46_f8.png	Wiiリモコンから新幹線専用コントローラが取り外されました。／操作方法を「Wiiリモコンのみの操作」に変更します。
 system/warntpl.dat/000C620_0_426x46_f8.png	Wii リモコンに新幹線専用コントローラが接続されました。／操作方法を「専用コントローラ」に変更します。
 system/warntpl.dat/000EF20_0_334x46_f8.png	Wiiリモコンの通信が切れました。／本体とWiiリモコンをつなぎなおして下さい。
+game2d/game2d_common_tex.dat/00C3640_0_226x36_f8.png	ポーズメニュー
+game2d/game2d_common_tex.dat/00D69E0_0_116x22_f8.png	サウンド設定
+game2d/game2d_common_tex.dat/00D45C0_0_138x24_f8.png	ボーナス条件

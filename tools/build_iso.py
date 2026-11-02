@@ -12,6 +12,8 @@ repl = []
 for dp, _, n in os.walk(FILES):
     for x in n:
         q = os.path.join(dp, x); repl.append(('/' + os.path.relpath(q, FILES).replace(os.sep, '/'), q)); assert repl[-1][0] in fs, repl[-1]
+DOL = os.path.join(ROOT, 'work', 'build', 'main.dol')                          # 기본 기록표 열차 이름(tools/dol_kr.py)
+if os.path.exists(DOL): repl.append(('/main.dol', DOL))
 print(len(repl), [r[0] for r in repl])
 os.makedirs(os.path.dirname(DST), exist_ok=True); f.close()
 isopatch.main(SRC, DST, repl)

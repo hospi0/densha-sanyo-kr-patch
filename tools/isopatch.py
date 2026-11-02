@@ -97,7 +97,7 @@ def main(src, dst, repl):
     for path, newfile in repl:
         blob = open(newfile, 'rb').read()
         if path == '/main.dol':
-            off, size = dol_off, 3254496
+            off, size = dol_off, len(blob)                                  # 산요: 실제 dol 크기(옛 값 3254496 은 죄와벌2)
         else:
             off, size = fs[path]
         if len(blob) != size:

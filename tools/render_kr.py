@@ -49,7 +49,7 @@ def bands(ink):
 RED = ('자동 브레이크', '브레이크', '마스콘', 'ATC', '감점되지 않습니다', '감점됩니다', '없습니다')
 
 
-def render(a, lines, shadow=(8, 10, 30, 255), center=False):
+def render(a, lines, shadow=(8, 10, 30, 255), center=False, fsize=None):
     """원본 줄 위치·왼쪽 시작·글자색을 재서 다시 그림. 판(불투명)이면 글자만 지우고 상자·아이콘을 남김, 글자 전용 띠면 통째로 지움"""
     h, w = a.shape[:2]; rgb = a[..., :3].astype(int); sat = rgb.max(2) - rgb.min(2); al = a[..., 3]; opq = al > 60
     _f = (al > 200); _nl = _f & (rgb.mean(2) < 170)
@@ -85,6 +85,7 @@ def render(a, lines, shadow=(8, 10, 30, 255), center=False):
     bh = min((v - u for u, v in B), default=16); size = max(11, min(bh + 2, 20))
     if n > 1 and not B: size = 12
     if n > 1: size = min(size, int(h / n) - 3)
+    if fsize: size = fsize
     for i, t in enumerate(lines):
         bi = B[min(i, len(B) - 1)] if B else (0, h); row = ink[bi[0]:bi[1]]; cols = np.nonzero(row.any(0))[0]; L = int(cols.min()) if len(cols) else 2
         if not t.strip(): continue

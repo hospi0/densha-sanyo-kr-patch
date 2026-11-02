@@ -146,6 +146,9 @@ def draw_one(a, s, k, rel):
     h, w = a.shape[:2]; ls = k.split('／')
     n, how = S2.special(a, s, k)
     if n is not None: return n, how
+    if how == '메뉴 항목':                                                         # 일반 경로로 그린 뒤 왼쪽 맞춤
+        n, how2 = draw_one(a, s + '#', k, rel)
+        return (S2.left_align(n) if n is not None else None), '메뉴 항목'
     n, how = special(a, s, k)
     if n is not None: return n, how
     if w == 224 and h >= 230 and ('Mode' in s or 'Setting' in s or 'Train ' in s):      # 메뉴 버튼 시트
@@ -154,7 +157,7 @@ def draw_one(a, s, k, rel):
             e = re.search(r'[A-Za-z].*$', x); K.append(re.sub(r'\s+[A-Za-z].*$', '', y)); E.append(e[0] if e else '')
         return T.menu_sheet(a, K, E), '메뉴 시트'
     if len(ls) == 1 and 30 <= h <= 44 and (a[..., 3] > 200).mean() < 0.9:
-        return T.title(a, k, 'light'), '큰 제목'
+        n = T.title(a, k, 'light'); return (S2.left_align(n, 4) if s == 'ポーズメニュー' else n), '큰 제목'   # 포즈 제목은 원본처럼 왼쪽
     if len(ls) >= 8: return None, '시트 보류'
     if len(ls) == 1 and h <= 30 and (a[..., 3] > 200).mean() < 0.75:
         op = a[..., 3] > 60; c = a[op][:, :3].astype(int) if op.any() else None
