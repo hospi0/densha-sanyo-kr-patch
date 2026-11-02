@@ -159,23 +159,16 @@ def vib_button(a, t):
 
 
 
-def stn_name(a, t, m=2, size=15):
-    """다이아 선택 «역 ～ 역» 이름(폭 58·92 고정): 양옆 여백 m 으로 꽉 맞춤 — 짧으면 자간 벌림, 길면 장평(2026-11-02 하스피 «～ 랑 붙음, 위치 제각각»)"""
-    h, w = a.shape[:2]; W = w - 2 * m; gl = []
-    for ch in t:
-        if ch == ' ': gl.append(None); continue
-        g = R.text_img(ch, size, 1.0); gl.append(g)
-    nat = sum(g.width for g in gl if g) + (len(gl) - 1) * 1 + sum(4 for g in gl if g is None)
-    L = Image.new('L', (w, h))
-    if nat >= W or len([g for g in gl if g]) < 2:
-        g = R.text_img(t, size, 1.0); g = g.resize((W, g.height), Image.LANCZOS) if g.width > W else g
-        L.paste(g, (m + (W - g.width) // 2, (h - g.height) // 2 + 1))
-    else:
-        ws = [g.width if g else 4 for g in gl]; gap = (W - sum(ws)) / (len(gl) - 1); x = m
-        for g, ww in zip(gl, ws):
-            if g: L.paste(g, (int(round(x)), (h - g.height) // 2 + 1))
-            x += ww + gap
-    out = np.zeros((h, w, 4), np.uint8); out[..., 0], out[..., 1], out[..., 2] = 24, 32, 90; out[..., 3] = np.asarray(L)
+def stn_name(a, t, size=15):
+    """다이아 선택 «역 ～ 역» 이름: 게임은 원문 글자 폭에 맞춘 역별 위치로 놓는다 → 원문 잉크 범위 [L,R] 안에만.
+    짧으면 그 범위 가운데(자간 안 벌림), 길면 장평(2026-11-02 하스피 — 그림 폭 꽉 채우기·자간 벌림은 ～ 에 붙어 틀렸음)"""
+    h, w = a.shape[:2]; xs = np.nonzero((a[..., 3] > 60).any(0))[0]; L = int(xs.min()); W = int(xs.max()) + 1 - L
+    for z in (size, size - 1, size - 2):
+        g = R.text_img(t, z, 1.0)
+        if g.width <= W: break
+    if g.width > W: g = R.text_img(t, z, W / g.width)
+    Lm = Image.new('L', (w, h)); Lm.paste(g, (L + (W - g.width) // 2, (h - g.height) // 2 + 1))
+    out = np.zeros((h, w, 4), np.uint8); out[..., 0], out[..., 1], out[..., 2] = 24, 32, 90; out[..., 3] = np.asarray(Lm)
     return out
 
 
