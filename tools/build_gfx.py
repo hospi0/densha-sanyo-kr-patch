@@ -28,7 +28,7 @@ def enc_i4(d, im, rgba):
     blk = g.reshape(by, 8, bx, 8).transpose(0, 2, 1, 3).ravel().astype(np.uint8); b = ((blk[0::2] << 4) | blk[1::2]).tobytes(); d[o:o + len(b)] = b
 
 
-def enc_cmpr(d, im, rgba, best=False):
+def enc_cmpr(d, im, rgba, best=False, fixeq=False):
     w, h, f, o, p = im; bx, by = (w + 7) // 8, (h + 7) // 8; q = o
     g = np.zeros((by * 8, bx * 8, 4), np.uint8); g[:h, :w] = rgba
     r5 = lambda v: (int(v[0]) >> 3) << 11 | (int(v[1]) >> 2) << 5 | int(v[2]) >> 3
@@ -47,7 +47,10 @@ def enc_cmpr(d, im, rgba, best=False):
                         pal = [hi, lo, (hi + lo) // 2]
                     else:
                         if a_ < b_: a_, b_ = b_, a_; hi, lo = lo, hi
-                        if a_ == b_: a_ = min(0xFFFF, a_ + 1)
+                        if a_ == b_:
+                            if not fixeq: a_ = min(0xFFFF, a_ + 1)            # 기존 동작 그대로(다른 그림 안 바뀌게)
+                            elif a_ > 0: b_ = a_ - 1                          # 역 띠만: a_+1 은 파랑 31 에서 초록으로 넘침(2026-11-02)
+                            else: a_ = 1
                         pal = [hi, lo, (2 * hi + lo) // 3, (hi + 2 * lo) // 3]
                     for y in range(4):
                         v = 0
@@ -196,7 +199,7 @@ def main():
             if how == '강조줄': S2.hilite_pal(d, im)
             if f in (8, 9): enc_index(d, im, new)
             elif f == 0: enc_i4(d, im, new)
-            elif f == 14: enc_cmpr(d, im, new, best=s in ('通過', '停車'))
+            elif f == 14: enc_cmpr(d, im, new, best=s in ('通過', '停車', '通過駅', '停車駅'), fixeq=s in ('通過駅', '停車駅'))
             elif f == 6: enc_rgba8(d, im, new)
             else: c['형식 미지원 f%d' % f] += 1
     import json, gfx_extra as X
@@ -232,6 +235,16 @@ def main():
         p = 'menu/nTplCommon.dat/%07X_0_100x32_f9.png' % o_; a = np.asarray(Image.open(os.path.join(TEX, p)).convert('RGBA')).copy()
         for r_, oo, j_ in [('menu/nTplCommon.dat', o_, 0)] + dup.get(p, []):
             d = buf(r_); enc_index(d, tpl.images(bytes(d), oo)[j_], S2.vib_button(a, t))
+    STN = {o_: t for o_, t in (                                                    # 다이아 선택 역 이름 23장 — 양옆 같은 여백으로(2026-11-02)
+        (0x269300, '신오사카'), (0x269680, '신코베'), (0x269A00, '니시아카시'), (0x269D80, '히메지'), (0x26A100, '아이오이'), (0x26A480, '오카야마'),
+        (0x26A800, '신쿠라시키'), (0x26AB80, '후쿠야마'), (0x26AF00, '신오노미치'), (0x26B280, '미하라'), (0x26B600, '히가시히로시마'), (0x26B980, '히로시마'),
+        (0x26BD00, '신이와쿠니'), (0x26C080, '토쿠야마'), (0x26C400, '신야마구치'), (0x26C780, '아사'), (0x26CB00, '신시모노세키'), (0x26CE80, '코쿠라'),
+        (0x26D200, '하카타'), (0x26D580, '하카타미나미'), (0x26D900, '하카타 종합차량소'), (0x26DE00, '나고야'), (0x26E180, '토쿄'))}
+    for o_, t in STN.items():
+        p = [x for x in os.listdir(os.path.join(TEX, 'menu', 'nTplCommon.dat')) if x.startswith('%07X_0_' % o_)][0]; p = 'menu/nTplCommon.dat/' + p
+        a = np.asarray(Image.open(os.path.join(TEX, p)).convert('RGBA')).copy()
+        for r_, oo, j_ in [('menu/nTplCommon.dat', o_, 0)] + dup.get(p, []):
+            d = buf(r_); enc_index(d, tpl.images(bytes(d), oo)[j_], S2.stn_name(a, t))
     HS = 'menu/nTplCommon.dat/02EC560_0_116x52_f8.png'                          # 정보 화면 하이스코어 칸의 点(img_map 누락, 2026-11-02)
     a = np.asarray(Image.open(os.path.join(TEX, HS)).convert('RGBA')).copy(); S2.mark(a.copy(), (78, 17, 102, 42), 62, '점', 17, S2.bright(a, (80, 19, 100, 40)), (90, 30))
     for r_, o_, j_ in [('menu/nTplCommon.dat', 0x2EC560, 0)] + dup.get(HS, []):

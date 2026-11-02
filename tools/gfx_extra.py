@@ -57,6 +57,24 @@ def vert(a, t, box):
     im = Image.fromarray(o); S.vtext(im, t, (x0, y0, x1, y1), col, (8, 10, 30) if not solid else None); return np.asarray(im)
 
 
+def vert_station(a, t):
+    """운전 중 노선 지도 역 이름(폭 16): 3음절 이하는 한 줄 세로(갈무리9), 4음절 이상은 두 글자씩 가로로 묶어 위→아래(갈무리7)
+    — 이름마다 같은 글꼴·같은 줄 간격·위쪽 맞춤(2026-11-02 하스피 «줄은 맞춰서»; 예전엔 세로 두 칸이라 오카야마가 «오야/카마»)"""
+    h, w = a.shape[:2]; col = tuple(int(v) for v in np.percentile(a[a[..., 3] > 100][:, :3], 90, axis=0)); im = Image.new('RGBA', (w, h), (0, 0, 0, 0))
+    n = len(t)
+    if n <= 3 or n * 11 <= h:
+        pitch = min(11, h // n)
+        for i, c in enumerate(t):
+            g = S.pix(c, 'Galmuri9.ttf', 10); S.put(im, g, (w - g.width) // 2, 1 + i * pitch + (pitch - 1 - g.height) // 2, col, (8, 10, 30))
+    else:
+        rows = [t[i:i + 2] for i in range(0, n, 2)]; pitch = min(9, h // len(rows))
+        for r, pair in enumerate(rows):
+            gs = [S.pix(c, 'Galmuri7.ttf', 8) for c in pair]; tw = sum(g.width for g in gs) + (len(gs) - 1); x = (w - tw) // 2
+            for g in gs:
+                S.put(im, g, x, 1 + r * pitch + (pitch - 1 - g.height) // 2, col, None); x += g.width + 1
+    return np.asarray(im)
+
+
 def button(a, t):
     h, w = a.shape[:2]; px = a[h // 2 - 6:h // 2 + 6, 20:w - 20, :3].astype(int).reshape(-1, 3)
     return S.labels(a, [((14, 5, w - 14, h - 6), t)], tuple(int(v) for v in np.percentile(px, 96, axis=0)), tuple(int(v) for v in np.percentile(px, 8, axis=0)), True, size=17)
@@ -68,7 +86,7 @@ def draw(a, e):
     if k == 'p': return plate(a, t, e[2])
     if k == 'i':
         o = a.copy(); o[2:23, 2:48, :3] = np.median(a[23:26, 3:12, :3].reshape(-1, 3), axis=0).astype(np.uint8) if t != '해제' else (0, 0, 0); o[2:23, 2:48, 3] = 255; im = Image.fromarray(o); g = R.text_img(t, 15, 1.0); g = g.crop(g.getbbox()); g = g.resize((min(g.width, 42), g.height)); S.put(im, g, 25 - g.width // 2, 12 - g.height // 2, e[2], None); return np.asarray(im)
-    if k == 'v': return vert(a, t, e[2])
+    if k == 'v': return vert_station(a, t) if e[2] is None else vert(a, t, e[2])
     if k == 'g': return button(a, t)
     if k == 'c': return plate(a, t, (2, 2, a.shape[1] - 2, a.shape[0] - 2), True)
     if k == 's': return S.special(a, '停車駅', t)[0]

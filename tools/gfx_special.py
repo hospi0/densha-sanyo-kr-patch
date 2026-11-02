@@ -113,10 +113,9 @@ RD = (235, 40, 30); WH = (255, 255, 255)
 LOOK = {'マスコンを に': [('마스콘', RD, 60), ('을', WH, None), ('에', WH, 178)], 'ブレーキを に': [('브레이크', RD, 60), ('를', WH, None), ('에', WH, 178)], '運転速度の目安は': None}
 
 
-DESC = {'ボーズを解除': (177, '일시정지를 해제하고'), 'ポーズを解除': (177, '일시정지를 해제하고'), '運転を中止して': (147, '운전을 중지하고'),
-        '運転を始めた駅': (187, '운전을 시작한 역부터'), '画面に表示される': (162, '화면에 표시되는'), '運転中に流れる': (136, '운전 중에 흐르는'),
-        '駅間セーブ': (170, '역간 세이브를'), '駅間セープ': (170, '역간 세이브를'), '運転中に再生される': (157, '운전 중에 재생되는'), 'ボーナス獲得条件': (181, '보너스 획득 조건을')}
-MENU = {'運転再開', '運転中止', '開始駅に戻る', 'メーター表示', 'セーブ', 'サウンド設定', 'ボーナス条件'}
+DESC = {'運転を中止して': (144, '운전을 중지하고'), '運転を始めた駅': (185, '운전을 시작한 역부터'), '画面に表示される': (266, '화면에 표시되는 계기 표시를'),   # 자르는 x = 원문 줄바꿈 글자 틈(실측). 일시정지·역간 세이브 설명은 한 줄(스샷 확인 2026-11-02)
+        '運転中に流れる': (144, '운전 중에 흐르는'), '運転中に再生される': (350, '운전 중에 재생되는 사운드 설정을'), 'ボーナス獲得条件': (185, '보너스 획득 조건을')}
+MENU = {'運転再開', '運転中止', '開始駅に戻る', 'メーター表示', 'セーブ', 'セープ', 'サウンド設定', 'ボーナス条件'}
 MENU_SZ = {(104, 24), (102, 24), (144, 24), (138, 24), (68, 24), (88, 22), (86, 22), (122, 22), (116, 22), (58, 22)}
 
 
@@ -159,6 +158,27 @@ def vib_button(a, t):
     return np.asarray(im)
 
 
+
+def stn_name(a, t, m=2, size=15):
+    """다이아 선택 «역 ～ 역» 이름(폭 58·92 고정): 양옆 여백 m 으로 꽉 맞춤 — 짧으면 자간 벌림, 길면 장평(2026-11-02 하스피 «～ 랑 붙음, 위치 제각각»)"""
+    h, w = a.shape[:2]; W = w - 2 * m; gl = []
+    for ch in t:
+        if ch == ' ': gl.append(None); continue
+        g = R.text_img(ch, size, 1.0); gl.append(g)
+    nat = sum(g.width for g in gl if g) + (len(gl) - 1) * 1 + sum(4 for g in gl if g is None)
+    L = Image.new('L', (w, h))
+    if nat >= W or len([g for g in gl if g]) < 2:
+        g = R.text_img(t, size, 1.0); g = g.resize((W, g.height), Image.LANCZOS) if g.width > W else g
+        L.paste(g, (m + (W - g.width) // 2, (h - g.height) // 2 + 1))
+    else:
+        ws = [g.width if g else 4 for g in gl]; gap = (W - sum(ws)) / (len(gl) - 1); x = m
+        for g, ww in zip(gl, ws):
+            if g: L.paste(g, (int(round(x)), (h - g.height) // 2 + 1))
+            x += ww + gap
+    out = np.zeros((h, w, 4), np.uint8); out[..., 0], out[..., 1], out[..., 2] = 24, 32, 90; out[..., 3] = np.asarray(L)
+    return out
+
+
 HILITE = {'・ATCの予告': '없습니다', '・ATCブレーキが作動しても': '감점되지 않습니다', '・ATCブレーキが作動すると': '감점됩니다'}
 
 
@@ -199,12 +219,7 @@ def special(a, s, k):
             n2, _ = R.render(a[:, cut + 3:].copy(), [t2], fsize=z); out[:, cut + 3:] = n2
             return out, '설명 두 줄'
     if s in MENU and (w, h) in MENU_SZ:
-        n, how = (None, None)
-        if h == 22 and len(k) > 6:                                                # 비선택 긴 항목: 크기 유지하고 장평으로
-            im = Image.new('RGBA', (w, h), (0, 0, 0, 0)); g = R.text_img(k, 15, 1.0)
-            if g.width > w - 5: g = R.text_img(k, 15, (w - 5) / g.width)
-            g = g.crop(g.getbbox()); put(im, g, 2, (h - g.height) // 2, bright(a, (0, 0, w, h)), (20, 20, 24), True); return np.asarray(im), '메뉴 항목'
-        return None, '메뉴 항목'
+        return left_align(T.title(a, k, 'gray' if h == 22 else 'yellow')), '메뉴 항목'   # 선택(노랑)·비선택(회색) 모두 원본처럼 같은 기울인 굵은 글꼴, 왼쪽 맞춤
     if s == 'リアルモード「 」':                                                  # 「 」 사이는 게임이 ON/OFF 를 찍는 자리 — 괄호는 원본 그대로, 앞 낱말만(2026-11-02)
         out = a.copy(); n, _ = R.render(a[:, :110].copy(), ['리얼 모드']); out[:, :110] = n; return out, '판'
     if sz == '76x120':                                                           # 정보 화면 라벨: 원본처럼 남색 글자 + 연한 테 — 4배로 그려 줄임(하스피 «고해상도로», 2026-11-02), 줄마다 원문 폭 안
@@ -328,5 +343,6 @@ def special(a, s, k):
     if s in ('通過駅', '停車駅'):
         o = a.copy()
         for y in range(3, h - 3): o[y, 4:w - 4] = a[y, 5]
-        im = Image.fromarray(o); g = R.text_img(k, min(h - 8, 14), 1.0); put(im, g, (w - g.width) // 2, (h - g.height) // 2, (250, 250, 250)); return np.asarray(im), '역 띠'
+        o[6:h - 6, 6:w - 6] = a[h // 2, 5]                                       # 안쪽 어두운 줄까지 바탕 한 색 — CMPR 블록에 글자+여러 바탕색이 섞이면 네모 얼룩(2026-11-02)
+        im = Image.fromarray(o); g = R.text_img(k, min(h - 8, 14), 1.0); put(im, g, (w - g.width) // 2, (h - g.height) // 2, (250, 250, 250), None); return np.asarray(im), '역 띠'   # CMPR: 그림자 넣으면 4×4 블록이 검게 뭉개짐(2026-11-02)
     return None, None

@@ -57,7 +57,8 @@ def title(a, t, style):
 
 
 STY = {'navy': dict(font=JUA, fill=(30, 44, 110), stroke=(225, 232, 245), sw=1, shadow=(8, 12, 40)), 'light': dict(font=JUA, fill=[(250, 252, 255), (150, 190, 235)], stroke=(16, 30, 80), sw=1, shadow=(6, 10, 40)),
-       'yellow': dict(fill=[(255, 255, 170), (250, 205, 40)], stroke=(70, 40, 10), sw=1, shear=0.22), 'white': dict(fill=[(255, 255, 255), (200, 205, 215)], stroke=(40, 44, 60), sw=1, shear=0.22)}
+       'yellow': dict(fill=[(255, 255, 170), (250, 205, 40)], stroke=(70, 40, 10), sw=1, shear=0.22), 'white': dict(fill=[(255, 255, 255), (200, 205, 215)], stroke=(40, 44, 60), sw=1, shear=0.22),
+       'gray': dict(fill=[(178, 178, 182), (128, 128, 134)], stroke=(28, 30, 38), sw=1, shear=0.22)}   # 포즈 메뉴 비선택(원본 회색 기울임)
 
 
 EFONT = EB
