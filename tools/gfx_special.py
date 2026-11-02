@@ -172,6 +172,25 @@ def stn_name(a, t, size=15):
     return out
 
 
+
+TITLE_SPLIT = {'ノーマルモード入門': [('노멀 모드', 3, 183), ('입문', 192, 246)],     # 일반 다이아에선 게임이 «入門» 앞(그림 x≈190, 스샷 실측)에서 잘라 씀 — 경계 양쪽에만(2026-11-02)
+               'リアルモード入門': [('리얼 모드', 3, 155), ('입문', 164, 218)]}       # 원문 경계 157(노멀 185)에 같은 +5
+
+
+def title_split(a, parts):
+    """큰 제목을 낱말마다 정해진 범위에 — 모든 글자 같은 크기·장평 그대로(하스피 «전부 같은 크기»).
+    크기 = 모든 낱말이 자기 범위에 들어가는 최대. 앞 낱말은 범위 오른쪽 끝에 붙여 낱말 사이가 보통 띄어쓰기처럼"""
+    h, w = a.shape[:2]; S = T.STY['light']; sw = S.get('sw', 1); H = h - 4 - 2 * sw; font = S.get('font', T.EB); sh = S.get('shear', 0)
+    for z in range(int(H * 1.2), 7, -1):
+        ms = [T.mask(t, z, font, sh) for t, _, _ in parts]
+        if all(m.height <= H and m.width <= x1 - x0 - 2 * sw for m, (_, x0, x1) in zip(ms, parts)): break
+    im = Image.new('RGBA', (w, h), (0, 0, 0, 0))
+    for k, (m, (t, x0, x1)) in enumerate(zip(ms, parts)):
+        x = x1 - sw - m.width if k < len(parts) - 1 else x0 + sw
+        T.draw(im, m, x, (h - m.height) // 2, S['fill'], S.get('stroke'), sw, S.get('shadow'))
+    return np.asarray(im)
+
+
 HILITE = {'・ATCの予告': '없습니다', '・ATCブレーキが作動しても': '감점되지 않습니다', '・ATCブレーキが作動すると': '감점됩니다'}
 
 
@@ -204,6 +223,7 @@ def special(a, s, k):
         if s.startswith(key): return hilite(a, k, tok), '강조줄'
     if sz == '398x22' and JP_CELL[sz] in s:                                      # 한자 넷 자리 통째로 비우고 칸 안쪽에만
         o = a.copy(); o[:, 219:388] = 0; return labels(o, CELLS[sz], bright(a, (222, 0, 385, 22)), clear=True), '칸 그림'
+    if s in TITLE_SPLIT: return title_split(a, TITLE_SPLIT[s]), '큰 제목'
     for key, (cut, first) in DESC.items():                                       # 포즈 메뉴 설명: 게임이 그림을 원문 줄바꿈 x 에서 잘라 두 줄로(2026-11-02)
         if s.startswith(key) and k.startswith(first):
             t2 = k[len(first):].strip(); out = np.zeros_like(a)
