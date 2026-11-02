@@ -1,0 +1,914 @@
+game2d/game2d_common_tex.dat/00060C0_0_66x24_f8.png	東広島
+game2d/game2d_common_tex.dat/00086E0_0_398x22_f8.png	到着 現在 通過 時刻 :
+game2d/game2d_common_tex.dat/0009A20_0_798x24_f8.png	切 非常 解除 －－ N
+game2d/game2d_common_tex.dat/002A2C0_0_72x22_f8.png	駅までに
+game2d/game2d_common_tex.dat/002ADE0_0_256x64_f8.png	戸じめ灯がついたら／出発です。
+game2d/game2d_common_tex.dat/002CE60_0_124x20_f8.png	出発して下さい。
+game2d/game2d_common_tex.dat/002D620_0_106x22_f8.png	はい いいえ
+game2d/game2d_common_tex.dat/0041AC0_0_50x46_f8.png	制限10
+game2d/game2d_common_tex.dat/0042080_0_50x46_f8.png	制限30
+game2d/game2d_common_tex.dat/0042640_0_50x46_f8.png	制限40
+game2d/game2d_common_tex.dat/0042C00_0_50x46_f8.png	開始B
+game2d/game2d_common_tex.dat/0043D40_0_50x46_f8.png	平担
+game2d/game2d_common_tex.dat/0044300_0_50x46_f8.png	上リ
+game2d/game2d_common_tex.dat/006F6A0_0_46x50_f9.png	定通／定速
+game2d/game2d_common_tex.dat/00702C0_0_150x20_f8.png	定速 定通 ポイント
+game2d/game2d_common_tex.dat/0070A60_0_38x20_f8.png	目標
+game2d/game2d_common_tex.dat/0070CC0_0_38x20_f8.png	誤差
+game2d/game2d_common_tex.dat/0070F20_0_68x20_f8.png	残り距離
+game2d/game2d_common_tex.dat/0071300_0_42x26_f14.png	通過
+game2d/game2d_common_tex.dat/0071640_0_42x26_f14.png	停車
+game2d/game2d_common_tex.dat/00741A0_0_118x26_f8.png	停車駅通過
+game2d/game2d_common_tex.dat/00749A0_0_188x26_f8.png	ATC 非常ブレーキ
+game2d/game2d_common_tex.dat/0075620_0_184x26_f8.png	先行列車追いつき
+game2d/game2d_common_tex.dat/0076220_0_124x26_f8.png	ATC01発令
+game2d/game2d_common_tex.dat/0076AA0_0_124x26_f8.png	ATC02発令
+game2d/game2d_common_tex.dat/0077320_0_166x26_f8.png	ATC未確認停車
+game2d/game2d_common_tex.dat/0077E20_0_190x26_f8.png	ATC ブレーキ作動
+game2d/game2d_common_tex.dat/0078AA0_0_140x26_f8.png	非常ブレーキ
+game2d/game2d_common_tex.dat/0079420_0_186x26_f8.png	プし一キ扱い注意
+game2d/game2d_common_tex.dat/007A0A0_0_210x26_f8.png	発車前ブレーキ解除
+game2d/game2d_common_tex.dat/007AEA0_0_186x26_f8.png	出発直後ブレーキ
+game2d/game2d_common_tex.dat/007BB20_0_162x26_f8.png	加速中ブレーキ
+game2d/game2d_common_tex.dat/007C620_0_196x26_f8.png	マスコン扱い注意!
+game2d/game2d_common_tex.dat/007D320_0_186x26_f8.png	戸じめ灯確認ミス
+game2d/game2d_common_tex.dat/007DFA0_0_140x26_f8.png	制限速度超過
+game2d/game2d_common_tex.dat/007E920_0_118x26_f8.png	予定外停車
+game2d/game2d_common_tex.dat/007F7A0_0_94x26_f8.png	警笛過多
+game2d/game2d_common_tex.dat/007FE20_0_118x26_f8.png	発車前警箘
+game2d/game2d_common_tex.dat/0080620_0_94x26_f8.png	確認失敗
+game2d/game2d_common_tex.dat/0080CA0_0_108x28_f8.png	早定遅通
+game2d/game2d_common_tex.dat/0081420_0_166x25_f8.png	合格範囲!! 過走!!
+game2d/game2d_common_tex.dat/0087160_0_132x24_f8.png	駅出発両編成
+game2d/game2d_common_tex.dat/0097B00_0_244x30_f9.png	コンティニューしますか?
+game2d/game2d_common_tex.dat/009D7C0_0_54x80_f9.png	戸じめ
+game2d/game2d_common_tex.dat/00A0480_0_40x62_f9.png	戸じめ
+game2d/game2d_common_tex.dat/00A5860_0_60x22_f8.png	合計点
+game2d/game2d_common_tex.dat/00A5BE0_0_96x22_f8.png	到着:停車:
+game2d/game2d_common_tex.dat/00C49C0_0_332x22_f8.png	ボーズを解除して、運転に戻ります。
+game2d/game2d_common_tex.dat/00C5A00_0_382x22_f8.png	運転を中止してメニュー画面に戻ります。
+game2d/game2d_common_tex.dat/00C6C80_0_422x22_f8.png	運転を始めた駅からやり直すことが出来ます。
+game2d/game2d_common_tex.dat/00C80E0_0_484x22_f8.png	画面に表示される計器表示を無くすことが出来ます。
+game2d/game2d_common_tex.dat/00C9840_0_374x22_f8.png	運転中に流れる BGM の選択を行います。
+game2d/game2d_common_tex.dat/00CAA60_0_318x22_f8.png	駅間セープを行うことが出来ます。
+game2d/game2d_common_tex.dat/00CB9E0_0_588x22_f8.png	運転中に再生されるサウンドの設定を変更することが出来ます。
+game2d/game2d_common_tex.dat/00CD620_0_444x22_f8.png	ボーナス獲得条件の確認を行うことができます。
+game2d/game2d_common_tex.dat/00CEBA0_0_224x24_f8.png	メニューに戻りますか?
+game2d/game2d_common_tex.dat/00CF6A0_0_202x24_f8.png	開始駅に戻りますか?
+game2d/game2d_common_tex.dat/00D00E0_0_126x24_f8.png	メーター表示
+game2d/game2d_common_tex.dat/00D0760_0_120x24_f8.png	BGM の変更
+game2d/game2d_common_tex.dat/00D0D80_0_160x24_f8.png	セーブしますか?
+game2d/game2d_common_tex.dat/00D1580_0_146x24_f8.png	喚呼ボイス再生
+game2d/game2d_common_tex.dat/00D1D20_0_104x24_f8.png	運転再開
+game2d/game2d_common_tex.dat/00D2280_0_102x24_f8.png	運転中止
+game2d/game2d_common_tex.dat/00D27E0_0_144x24_f8.png	開始駅に戻る
+game2d/game2d_common_tex.dat/00D2F20_0_138x24_f8.png	メーター表示
+game2d/game2d_common_tex.dat/00D3AA0_0_68x24_f8.png	セープ
+game2d/game2d_common_tex.dat/00D3E80_0_138x24_f8.png	サウンド設定
+game2d/game2d_common_tex.dat/00D4D00_0_88x22_f8.png	運転再開
+game2d/game2d_common_tex.dat/00D51A0_0_86x22_f8.png	運転中止
+game2d/game2d_common_tex.dat/00D5640_0_122x22_f8.png	開始駅に戻る
+game2d/game2d_common_tex.dat/00D5CC0_0_116x22_f8.png	メーター表示
+game2d/game2d_common_tex.dat/00D6660_0_58x22_f8.png	セープ
+game2d/game2d_common_tex.dat/00D7000_0_116x22_f8.png	ボーナス条件
+game2d/game2d_common_tex.dat/00DEDA0_0_162x20_f8.png	Wiiリモコンテレビ
+game2d/kids_nyumon_tex.dat/000BD00_0_200x24_f14.png	通過駅
+game2d/kids_nyumon_tex.dat/000D040_0_304x72_f8.png	キッズモード入門へようこそ!
+game2d/kids_nyumon_tex.dat/000FB80_0_304x72_f8.png	キッズモードとは、／基本的なルールはそのままに
+game2d/kids_nyumon_tex.dat/00126C0_0_304x72_f8.png	より簡単に電車を／運転できるモードです。
+game2d/kids_nyumon_tex.dat/0015200_0_304x72_f8.png	運転モードと同じように／停車駅に停まりながら／終着駅を目指します。
+game2d/kids_nyumon_tex.dat/0017D40_0_304x72_f8.png	キッズモードでは／タイムの代わりに／状況メーターで運転します。
+game2d/kids_nyumon_tex.dat/001A880_0_304x72_f8.png	状況メーターを／常に GOOD の範囲に／収めながら運転します。
+game2d/kids_nyumon_tex.dat/001D3C0_0_304x72_f8.png	状況メーターが BAD の範囲や／過走などをすると減点。
+game2d/kids_nyumon_tex.dat/001FF00_0_304x72_f8.png	それぞれの停車駅で／合格点以上を獲得すれば／次に進むことができます。
+game2d/kids_nyumon_tex.dat/0022A40_0_304x72_f8.png	不合格だと／グームオーバーです。
+game2d/kids_nyumon_tex.dat/0025580_0_304x72_f8.png	終着駅を目指して／頑張って運転しましょう。
+game2d/kids_nyumon_tex.dat/00280C0_0_304x72_f8.png	次は運転操作の説明です。
+game2d/kids_nyumon_tex.dat/002AC00_0_304x72_f8.png	Wii リモコンを振ることで／電車が加速します。
+game2d/kids_nyumon_tex.dat/002D740_0_304x72_f8.png	一定時間加速すると／加速の効果が無くなり、／ニュートラルに戻ります。
+game2d/kids_nyumon_tex.dat/0030280_0_304x72_f8.png	加速時間はパワーグージで／確認できます。
+game2d/kids_nyumon_tex.dat/0032DC0_0_304x72_f8.png	加速時間は絶えず注意を／払いましょう。
+game2d/kids_nyumon_tex.dat/0035900_0_304x72_f8.png	次はブレーキ操作です。
+game2d/kids_nyumon_tex.dat/0038440_0_304x72_f8.png	Wiiリモコンの Bボタンを／押すとブレーキが掛かります。
+game2d/kids_nyumon_tex.dat/003AF80_0_304x72_f8.png	B ボタンを離すと／ニュートラル状態となり、／電車が滑走します。
+game2d/kids_nyumon_tex.dat/003DAC0_0_304x72_f8.png	減速を上手く扱い、／停車駅 0cm を目指しましょう。
+game2d/kids_nyumon_tex.dat/0040600_0_304x72_f8.png	次は速度のキープについて／説明します。
+game2d/kids_nyumon_tex.dat/0043140_0_304x72_f8.png	キッズモードでは自由に／走行速度を固定できます。
+game2d/kids_nyumon_tex.dat/0045C80_0_304x72_f8.png	Wii リモコンでキープボタンを／ポイントし、 A ボタンを押すと／速度がキープされます。
+game2d/kids_nyumon_tex.dat/00487C0_0_304x72_f8.png	キープは解除ボタンを／ポイントして Aボタンを押すか、
+game2d/kids_nyumon_tex.dat/004B300_0_304x72_f8.png	加速したり、減速することで／解除されます。
+game2d/kids_nyumon_tex.dat/004DE40_0_304x72_f8.png	上手くキープボタンを使って／運転操作を楽にしましょう。
+game2d/kids_nyumon_tex.dat/0050980_0_304x72_f8.png	次は運転士喚呼の説明です。
+game2d/kids_nyumon_tex.dat/00534C0_0_304x72_f8.png	運転士喚呼では、運転士が／行う様々な確認を／ボタンを押して行ないます。
+game2d/kids_nyumon_tex.dat/0056000_0_304x72_f8.png	運転士の確認が必要な／タイミングで喚呼ボタンが／画面中に表示されます。
+game2d/kids_nyumon_tex.dat/0058B40_0_304x72_f8.png	この喚呼ボタン表示中に／矢印アイコンを喚呼ボタンに／合わせ A ボタンを押すと、
+game2d/kids_nyumon_tex.dat/005B680_0_304x72_f8.png	運転士が確認喚呼を行います。
+game2d/kids_nyumon_tex.dat/005E1C0_0_304x72_f8.png	以上でグーム説明を終わります。／では張り切って運転してください。
+game2d/kids_nyumon_tex.dat/0060D00_0_304x72_f8.png	キッズモードでは／風景のどこかにおなじみの／キャラクターがいます。
+game2d/kids_nyumon_tex.dat/0063840_0_304x72_f8.png	このキャラクターを上手く／ポイントし、 A ボタンを／押していきましょう。
+game2d/kids_nyumon_tex.dat/0066380_0_304x72_f8.png	ボーナスの条件にそって／キャラクターを選びましょう。
+game2d/kids_nyumon_tex.dat/0068EC0_0_304x72_f8.png	ボーナスの条件は／キャラボーナスアイコンで／確認しましょう。
+game2d/kids_nyumon_tex.dat/006BA00_0_304x72_f8.png	ATC 信号が低い速度に／切り替わると自動ブレーキが／作動します。
+game2d/kids_nyumon_tex.dat/006E540_0_304x72_f8.png	キッズモードでは実際の／新幹線と同じく、手動ではなく、
+game2d/kids_nyumon_tex.dat/0071080_0_304x72_f8.png	自動ブレーキを利用して／減速してください。
+game2d/kids_nyumon_tex.dat/0073BC0_0_304x72_f8.png	ATC 信号の点滅による予告は／ありません。また、このときの／減点はされません。
+game2d/kids_nyumon_tex.dat/0076700_0_192x72_f8.png	ボタンが点灯したら／ボタンを押してください。
+game2d/kids_nyumon_tex.dat/0078280_0_192x72_f8.png	Wii リモコンを振って、／電車を加速させましょう。
+game2d/kids_nyumon_tex.dat/0079E00_0_192x72_f8.png	そうそう、その調子!
+game2d/kids_nyumon_tex.dat/007B980_0_192x72_f8.png	ATC を超えたスピードを／出すことはできません。
+game2d/kids_nyumon_tex.dat/007D500_0_192x72_f8.png	ATC の制限速度が／変わりました。
+game2d/kids_nyumon_tex.dat/007F080_0_192x72_f8.png	Wii リモコンを振って／加速させましょう。
+game2d/kids_nyumon_tex.dat/0080C00_0_192x72_f8.png	あ、キャッチ君だ!
+game2d/kids_nyumon_tex.dat/0082780_0_192x72_f8.png	Wii リモコンで／ポイントしよう!
+game2d/kids_nyumon_tex.dat/0084300_0_192x72_f8.png	上手く選択できたね!／その調子!
+game2d/kids_nyumon_tex.dat/0085E80_0_192x72_f8.png	ちょっと早すぎです。／GOOD 内で運転してね。
+game2d/kids_nyumon_tex.dat/0087A00_0_192x72_f8.png	良い感じ! このまま／GOOD を保ってね。
+game2d/kids_nyumon_tex.dat/0089580_0_192x72_f8.png	遅れ気味です・・・／GOOD を保ってね。
+game2d/kids_nyumon_tex.dat/008B100_0_192x72_f8.png	ATCが／近づいてきました。
+game2d/kids_nyumon_tex.dat/008CC80_0_192x72_f8.png	ATC を通過すると／減速が開始されます。
+game2d/kids_nyumon_tex.dat/008E800_0_192x72_f8.png	停車駅が／近づいてきました。
+game2d/kids_nyumon_tex.dat/0090380_0_192x72_f8.png	あ～あ、／過走しちゃった・・・
+game2d/kids_nyumon_tex.dat/0091F00_0_192x72_f8.png	ダイヤに合わせて／運転してね。
+game2d/kids_nyumon_tex.dat/0093A80_0_192x72_f8.png	お見事です！
+game2d/kids_nyumon_tex.dat/0095600_0_192x72_f8.png	鉄ちゃん／めろめろです～♥
+game2d/kids_nyumon_tex.dat/0097180_0_192x72_f8.png	キッズモードの運転の／仕方、分かったかな？
+game2d/kids_nyumon_tex.dat/0098D00_0_192x72_f8.png	それでは入門編を／終わります。
+game2d/kids_nyumon_tex.dat/009A880_0_192x72_f8.png	お疲れ様でした。
+game2d/kids_nyumon_tex.dat/009C400_0_192x72_f8.png	ここは停まるところじゃ／ありませ～ん。
+game2d/kids_nyumon_tex.dat/009DF80_0_192x72_f8.png	Wii リモコンを振って／出発してください・・・
+game2d/kids_tex.dat/0000460_0_244x20_f8.png	－成功条件－
+game2d/kids_tex.dat/0002E60_0_408x22_f8.png	運転中、どこかの景色に現れるを 体探していこう！
+game2d/kids_tex.dat/0004200_0_210x30_f8.png	順番に指し示せ！
+game2d/kids_tex.dat/0005000_0_812x22_f8.png	指示されたキャラクターを 体探そう！目的のキャラクターを見つけるたびに次の目標が変わっていくよ。
+game2d/kids_tex.dat/00576A0_0_92x30_f8.png	鉄ちゃん
+game2d/kids_tex.dat/0058F20_0_146x30_f8.png	クッキングママ
+game2d/kids_tex.dat/0059920_0_198x30_f8.png	スペースインベーダー
+game2d/kids_tex.dat/005ADA0_0_120x30_f8.png	トリスティア
+game2d/kids_tex.dat/005B5A0_0_104x30_f8.png	アイザック
+game2d/kids_tex.dat/005C320_0_94x30_f8.png	ボブルン
+game2d/kids_tex.dat/005CE20_0_92x30_f8.png	ドラカン
+game2d/kids_tex.dat/005DF80_0_58x20_f8.png	飛行船
+game2d/kids_tex.dat/005E300_0_116x20_f8.png	クッキングママ
+game2d/kids_tex.dat/005E920_0_138x20_f8.png	スペースインベーダー
+game2d/kids_tex.dat/005F560_0_98x20_f8.png	トリスティア
+game2d/kids_tex.dat/005FAC0_0_90x20_f8.png	アイザック
+game2d/kids_tex.dat/005FFC0_0_74x20_f8.png	バブルン
+game2d/kids_tex.dat/0060400_0_72x20_f8.png	ボブルン
+game2d/kids_tex.dat/00607E0_0_36x20_f8.png	ボム
+game2d/kids_tex.dat/0060A40_0_70x20_f8.png	ドラカン
+game2d/kids_tex.dat/0060E20_0_200x30_f8.png	を連続で指し示せ！
+game2d/kids_tex.dat/0061B20_0_870x22_f8.png	運転中に現れるを連続で 体選んでいこう！1体でも見逃すと連続記録が途切れ、最初の数にもどっちゃうぞ。
+game2d/kids_tex.dat/008BEA0_0_246x24_f8.png	あと 体
+game2d/kids_tex.dat/008CAC0_0_84x44_f8.png	を探せ!
+game2d/kids_tex.dat/008D380_0_84x44_f8.png	順番通り／指し示せ!
+game2d/kids_tex.dat/008E500_0_306x22_f8.png	GOOD! BAD
+game2d/kids_tex.dat/008F420_0_120x28_f8.png	通過確認
+game2d/kids_tex.dat/008FC20_0_120x28_f8.png	通過
+game2d/kids_tex.dat/0090420_0_120x28_f8.png	ATC確認
+game2d/kids_tex.dat/0090C20_0_120x28_f8.png	停車場接近
+game2d/kids_tex.dat/0091C20_0_120x28_f8.png	B標確認
+game2d/kids_tex.dat/0092420_0_120x28_f8.png	確認OK!
+game2d/kids_tex.dat/00E5900_0_172x80_f9.png	はやい／おそい
+game2d/kids_tex.dat/00F58E0_0_62x16_f8.png	キープ中
+game2d/nyumon_tex.dat/00003A0_0_304x72_f8.png	入門編へようこそ!
+game2d/nyumon_tex.dat/0002EE0_0_192x24_f8.png	0123456789 十一
+game2d/nyumon_tex.dat/0010960_0_194x32_f8.png	ゲームのルール
+game2d/nyumon_tex.dat/00131E0_0_146x32_f8.png	ATC確認
+game2d/nyumon_tex.dat/0014460_0_156x32_f8.png	運転士喚呼
+game2d/nyumon_tex.dat/0014EE0_0_268x32_f8.png	キャラクターボーナス
+game2d/nyumon_tex.dat/0017CC0_0_176x30_f9.png	ATC説明
+game2d/nyumon_tex.dat/0020AC0_0_202x30_f9.png	キャラクターボーナス
+game2d/nyumon_tex.dat/0025800_0_200x24_f14.png	通過駅
+game2d/nyumon_tex.dat/00261A0_0_200x24_f14.png	停車駅
+game2d/nyumon_tex.dat/0028E80_0_192x72_f8.png	リアルモード入門編／へようこそ!
+game2d/nyumon_tex.dat/002AA00_0_192x72_f8.png	入門へようこそ!
+game2d/nyumon_tex.dat/002C580_0_304x72_f8.png	電車で GO !／新幹線 EX 山陽新幹線編は
+game2d/nyumon_tex.dat/002F0C0_0_304x72_f8.png	マスコンとプし一キを使って／新幹線を運転するグームです。
+game2d/nyumon_tex.dat/0031C00_0_304x72_f8.png	ダイヤに従って、通過駅を通過、／停車駅に停車していきます。
+game2d/nyumon_tex.dat/0034740_0_304x72_f8.png	運転規則や制限速度、時間を／守っていないと減点!
+game2d/nyumon_tex.dat/0037280_0_304x72_f8.png	合格点以上なら次に進むことが／できます。
+game2d/nyumon_tex.dat/0039DC0_0_304x72_f8.png	不合格だとグームオーバーです。／終着駅に停車するのがグームの／目的です。
+game2d/nyumon_tex.dat/003C900_0_192x72_f8.png	新幹線の運転の／基礎を説明します。
+game2d/nyumon_tex.dat/003E480_0_192x72_f8.png	上が予定時刻、／下が現在時刻です。
+game2d/nyumon_tex.dat/0040000_0_192x72_f8.png	この時間を守るよう／に運転して下さい。
+game2d/nyumon_tex.dat/0041B80_0_192x72_f8.png	次の駅までの／距離です。
+game2d/nyumon_tex.dat/0043700_0_192x72_f8.png	これが速度計です。
+game2d/nyumon_tex.dat/0045280_0_192x72_f8.png	これが／ブレーキメーター、
+game2d/nyumon_tex.dat/0046E00_0_192x72_f8.png	こちらがマスコン／メーターです。
+game2d/nyumon_tex.dat/0048980_0_192x72_f8.png	在来線とは位置が／逆なので
+game2d/nyumon_tex.dat/004A500_0_192x72_f8.png	注意して下さい。
+game2d/nyumon_tex.dat/004C080_0_192x72_f8.png	新幹線は、ATCの指示／に従って運転します。
+game2d/nyumon_tex.dat/004DC00_0_304x72_f8.png	時速 200 キロ以上で走る／新幹線は、地上の信号や標識を／一瞬で通過してしまいます。
+game2d/nyumon_tex.dat/0050740_0_304x72_f8.png	運転士は目で信号を確認／することができません。
+game2d/nyumon_tex.dat/0053280_0_304x72_f8.png	そこで、新幹線の信号は全て／運転席の中に表示することに／なりました。
+game2d/nyumon_tex.dat/0055DC0_0_304x72_f8.png	これが ATC 信号です。
+game2d/nyumon_tex.dat/0058900_0_304x72_f8.png	ATCの指示する速度をこえると／自動ブレーキがかかります。
+game2d/nyumon_tex.dat/005B440_0_304x72_f8.png	減速して ATC の指示する／速度までスピードが落ちると／ブレーキが解除されます。
+game2d/nyumon_tex.dat/005DF80_0_304x72_f8.png	ATC はこのように新幹線の／スピードを管理します。
+game2d/nyumon_tex.dat/0060AC0_0_192x72_f8.png	お客様が乗り終わり／ドアが閉まると、
+game2d/nyumon_tex.dat/0062640_0_192x72_f8.png	戸じめ灯がつきます。
+game2d/nyumon_tex.dat/00641C0_0_192x72_f8.png	自動ブレーキが／作動しています。
+game2d/nyumon_tex.dat/0065D40_0_192x72_f8.png	ATC の指示を上回る／速度を出すことは／できません。
+game2d/nyumon_tex.dat/00678C0_0_304x72_f8.png	ATC 信号が低い速度に／切り替わると自動ブレーキが／作動して減速します。
+game2d/nyumon_tex.dat/006A400_0_304x72_f8.png	切り替わる前に ATC 信号が／点滅して予告します。
+game2d/nyumon_tex.dat/006CF40_0_304x72_f8.png	ATC 信号が点滅している間に／手動で減速してください。
+game2d/nyumon_tex.dat/006FA80_0_304x72_f8.png	点滅が終わると／自動ブレーキが作動します。
+game2d/nyumon_tex.dat/00725C0_0_304x72_f8.png	減速が間に合わず、／自動ブレーキを／作動させてしまうと減点です。
+game2d/nyumon_tex.dat/0075100_0_192x72_f8.png	これが B 標です。
+game2d/nyumon_tex.dat/0076C80_0_192x72_f8.png	ブレーキを使って／減速してください。
+game2d/nyumon_tex.dat/0078800_0_304x72_f8.png	編成の長さによって、／停車位置は変わります。
+game2d/nyumon_tex.dat/007B340_0_304x72_f8.png	停車位置がホームの中ほどに／ある場合、 ATC より早く／減速しないと間に合いません。
+game2d/nyumon_tex.dat/007DE80_0_304x72_f8.png	B標は、手動でブレーキを／かける目安です。
+game2d/nyumon_tex.dat/00809C0_0_304x72_f8.png	B 標を確認したら／減速を始めてください。
+game2d/nyumon_tex.dat/0086040_0_304x72_f8.png	リアルモードでは実際の／新幹線と同じく、手動ではなく、
+game2d/nyumon_tex.dat/008E200_0_192x72_f8.png	まもなく新倉敷を／通過します。
+game2d/nyumon_tex.dat/008FD80_0_192x72_f8.png	予定時刻に通過する／ようにしましょう。
+game2d/nyumon_tex.dat/0091900_0_192x72_f8.png	停車駅が／近づきました。
+game2d/nyumon_tex.dat/0093480_0_304x72_f8.png	リアルモードでは停車前に／ATC 確認が必要です。
+game2d/nyumon_tex.dat/0095FC0_0_304x72_f8.png	ATC 確認はオーバーランを／防ぐための手順です。
+game2d/nyumon_tex.dat/0098B00_0_304x72_f8.png	新幹線の駅間の減速は自動で行わ／れるので、停車駅に気づかないと／通過してしまうことがあります。
+game2d/nyumon_tex.dat/009B640_0_304x72_f8.png	それを防ぐため、 ATC 確認を行わ／ないと、自動的に停車する仕組みに／なっています。
+game2d/nyumon_tex.dat/009E180_0_304x72_f8.png	ATC30信号のときは、／他の信号とちがって
+game2d/nyumon_tex.dat/00A0CC0_0_304x72_f8.png	時速 30 キロ以下に減速／しても自動ブレーキが／解除されません。
+game2d/nyumon_tex.dat/00A3800_0_304x72_f8.png	そのため、駅の停車位置よりも／手前で停車してしまいます。
+game2d/nyumon_tex.dat/00A6340_0_304x72_f8.png	ATC 確認を行うと、／自動ブレーキが解除され、
+game2d/nyumon_tex.dat/00A8E80_0_304x72_f8.png	30km / h 以下の速度で／進行できます。
+game2d/nyumon_tex.dat/00AB9C0_0_304x72_f8.png	ATC30信号が出たら、ATC確認／(マイナス)ボタンを押し続けて下さい。
+game2d/nyumon_tex.dat/00AE500_0_304x72_f8.png	ATC30信号が出たら、ATC確認／(SELECT)ボタンを押し続けて下さい。
+game2d/nyumon_tex.dat/00B1040_0_304x72_f8.png	時速30キロ以下になって自動／ブレーキが解除されたら、ATC確認／(マイナス)ボタンを離して下さい。
+game2d/nyumon_tex.dat/00B3B80_0_304x72_f8.png	時速30キロ以下になって自動／ブレーキが解除されたら、ATC確認／(SELECT)ボタンを離して下さい。
+game2d/nyumon_tex.dat/00B66C0_0_192x72_f8.png	出発の準備として／ブレーキを非常に
+game2d/nyumon_tex.dat/00B8240_0_192x72_f8.png	マスコンを切に／入れておきましょう。
+game2d/nyumon_tex.dat/00B9DC0_0_192x72_f8.png	これで入門を／終了します。
+game2d/nyumon_tex.dat/00BB940_0_192x72_f8.png	ブレーキを解除／して下さい。
+game2d/nyumon_tex.dat/00BD4C0_0_192x72_f8.png	ATC確認(マイナス)ボタン／を押し続けて下さい。
+game2d/nyumon_tex.dat/00BF040_0_192x72_f8.png	ATC確認(SELECT)ボタン／を押し続けて下さい。
+game2d/nyumon_tex.dat/00C0BC0_0_192x72_f8.png	ATC確認(マイナス)ボタン／を離して下さい。
+game2d/nyumon_tex.dat/00C2740_0_192x72_f8.png	ATC確認(SELECT)ボタン／を離して下さい。
+game2d/nyumon_tex.dat/00C42C0_0_192x72_f8.png	マスコンを に／入れてください。
+game2d/nyumon_tex.dat/00C5E40_0_192x72_f8.png	ブレーキを に／入れてください。
+game2d/serifu_tex.dat/0000180_0_256x64_f8.png	予定より遅れていますが、／何かありましたか？
+game2d/serifu_tex.dat/0002200_0_256x64_f8.png	停車していますが、／何かありましたか？
+game2d/serifu_tex.dat/0004280_0_256x64_f8.png	運転士に問題発生の模様。／運転を中止します。
+game2d/serifu_tex.dat/0006300_0_256x64_f8.png	出発して下さい。
+game2d/serifu_tex.dat/0008380_0_256x64_f8.png	時速 170 キロ制限を行ないます。／到着・通過時刻を変更します。
+game2d/serifu_tex.dat/000A400_0_256x64_f8.png	時速 120 キロ制限を行ないます。／到着・通過時刻を変更します。
+game2d/serifu_tex.dat/000C480_0_256x64_f8.png	到着・通過時刻を変更します。
+game2d/serifu_tex.dat/000E500_0_256x64_f8.png	速度制限を解除します。
+game2d/serifu_tex.dat/0010580_0_256x64_f8.png	分 秒遅れています。／回復してください。
+game2d/serifu_tex.dat/0012600_0_256x64_f8.png	分 秒遅れています。
+game2d/serifu_tex.dat/0014680_0_256x64_f8.png	先行列車に接近しすぎです。／速度を落として下さい。
+game2d/serifu_tex.dat/0016700_0_256x64_f8.png	正常ダイヤに回復しました。／定時運行を願います。
+game2d/serifu_tex.dat/0018780_0_256x64_f8.png	定時運行を願います。
+game2d/serifu_tex.dat/001A800_0_192x64_f8.png	ブレーキを使って／停止位置 0m に／停車しましょう。
+game2d/serifu_tex.dat/001C080_0_192x72_f8.png	戸じめ灯がついたら／出発です。
+game2d/serifu_tex.dat/001DC00_0_192x72_f8.png	出発して下さい。
+game2d/serifu_tex.dat/001F780_0_192x64_f8.png	ATC の指示を上回る／速度を出すことは／できません。
+game2d/serifu_tex.dat/0021000_0_192x64_f8.png	自動プし一キが／作動しています。
+game2d/serifu_tex.dat/0022880_0_192x64_f8.png	ブレーキを解除／してください。
+game2d/serifu_tex.dat/0024100_0_192x64_f8.png	マスコンを入れて／加速して下さい。
+game2d/serifu_tex.dat/0025980_0_192x64_f8.png	新幹線は、 ATC の指示／に従って運転します。
+game2d/serifu_tex.dat/0027200_0_192x64_f8.png	ATC の指示速度に／従って運転して下さい。
+game2d/serifu_tex.dat/0028A80_0_192x64_f8.png	停車駅が近づきました。
+game2d/serifu_tex.dat/002A300_0_192x64_f8.png	ATC確認(マイナス)ボタン／を離して下さい。
+game2d/serifu_tex.dat/002BB80_0_192x64_f8.png	ATC確認(SELECT)ボタン／を離して下さい。
+game2d/serifu_tex.dat/002D400_0_192x64_f8.png	ATC確認(マイナス)ボタン／を押し続けて下さい。
+game2d/serifu_tex.dat/002EC80_0_192x64_f8.png	ATC確認(SELECT)ボタン／を押し続けて下さい。
+game2d/serifu_tex.dat/0030500_0_192x64_f8.png	運転速度の目安は／時速 キロです
+game2d/serifu_tex.dat/0031D80_0_192x64_f8.png	戸締め前の操作は／危険です!
+game2d/serifu_tex.dat/0033600_0_192x64_f8.png	正確に／停車しましょう。
+game2d/serifu_tex.dat/0034E80_0_192x64_f8.png	そこに停まっても／お客様は／乗降できません!
+game2d/serifu_tex.dat/0036700_0_192x64_f8.png	駅間で停まっては／いけません。
+game2d/serifu_tex.dat/0037F80_0_192x64_f8.png	停車駅では／ATC 確認を忘れすに。
+game2d/serifu_tex.dat/0039800_0_192x64_f8.png	ATC の指示速度を／守りましょう。
+game2d/serifu_tex.dat/003B080_0_192x64_f8.png	非常ブレーキは／控えましょう。
+game2d/serifu_tex.dat/003C900_0_192x64_f8.png	ブレーキ操作は／丁寧に。
+game2d/serifu_tex.dat/003E180_0_192x64_f8.png	ダイヤを守って／下さいね。
+game2d/serifu_tex.dat/003FA00_0_192x64_f8.png	電車は急には／止まれません。
+game2d/serifu_tex.dat/0041280_0_192x64_f8.png	警笛は最小限に／願います。
+game2d/serifu_tex.dat/0042B00_0_192x64_f8.png	遅れを／取り戻せませんでした。
+game2d/serifu_tex.dat/0044380_0_192x64_f8.png	巡航速度を／保ちましょう。
+game2d/serifu_tex.dat/0045C00_0_192x64_f8.png	走行速度が／速過ぎますぅ。
+game2d/serifu_tex.dat/0047480_0_192x64_f8.png	制限速度を／守りましょう。
+game2d/serifu_tex.dat/0048D00_0_192x64_f8.png	お客様のことを考えて／運転しましょう。
+game2d/serifu_tex.dat/004A580_0_192x64_f8.png	正確な運転を／心がけてね。
+game2d/serifu_tex.dat/004BE00_0_192x64_f8.png	操作は／優しく丁寧に。
+game2d/staff_tex.dat/00468A0_0_304x26_f8.png	合計点
+game2d/staff_tex.dat/0047C20_0_304x26_f8.png	合計点
+game2d/staff_tex.dat/0048FA0_0_60x20_f8.png	新大阪
+game2d/staff_tex.dat/0049320_0_60x20_f8.png	新神戸
+game2d/staff_tex.dat/00496A0_0_60x20_f8.png	西明石
+game2d/staff_tex.dat/0049CE0_0_42x20_f8.png	相生
+game2d/staff_tex.dat/0049FA0_0_42x20_f8.png	岡山
+game2d/staff_tex.dat/004A260_0_60x20_f8.png	新倉敷
+game2d/staff_tex.dat/004A5E0_0_42x20_f8.png	福山
+game2d/staff_tex.dat/004AEE0_0_60x20_f8.png	東広島
+game2d/staff_tex.dat/004B260_0_42x20_f8.png	広島
+game2d/staff_tex.dat/004B8A0_0_42x20_f8.png	徳山
+game2d/staff_tex.dat/004BB60_0_60x20_f8.png	新山口
+game2d/staff_tex.dat/004C1A0_0_60x20_f8.png	新下関
+game2d/staff_tex.dat/004CAA0_0_60x20_f8.png	博多南
+game2d/staff_tex.dat/004CE20_0_96x20_f8.png	博多総合車両所
+menu/nTplCommon.dat/00501A0_0_224x290_f9.png	運転 Driving Mode／フリーラン FreeRun Mode／キッズモード Kids Mode／資料館 Museum Mode／オプション Option Mode
+menu/nTplCommon.dat/0062640_0_224x290_f9.png	運転 Driving Mode／フリーラン FreeRun Mode／キッズモード Kids Mode／資料館 Museum Mode／オプション Option Mode
+menu/nTplCommon.dat/0072820_0_224x290_f9.png	運転 Driving Mode／フリーラン FreeRun Mode／キッズモード Kids Mode／資料館 Museum Mode／オプション Option Mode
+menu/nTplCommon.dat/021CF80_0_60x24_f8.png	新大阪
+menu/nTplCommon.dat/021D300_0_60x24_f8.png	新神戸
+menu/nTplCommon.dat/021D680_0_60x24_f8.png	西明石
+menu/nTplCommon.dat/021DC60_0_40x24_f8.png	相生
+menu/nTplCommon.dat/021DEC0_0_40x24_f8.png	岡山
+menu/nTplCommon.dat/021E120_0_60x24_f8.png	新倉敷
+menu/nTplCommon.dat/021E4A0_0_40x24_f8.png	福山
+menu/nTplCommon.dat/021E700_0_60x24_f8.png	新尾道
+menu/nTplCommon.dat/021F060_0_40x24_f8.png	広島
+menu/nTplCommon.dat/021F2C0_0_60x24_f8.png	新岩国
+menu/nTplCommon.dat/021F640_0_40x24_f8.png	徳山
+menu/nTplCommon.dat/021F8A0_0_60x24_f8.png	新山口
+menu/nTplCommon.dat/021FC20_0_40x24_f8.png	厚狭
+menu/nTplCommon.dat/021FE80_0_60x24_f8.png	新下関
+menu/nTplCommon.dat/0220200_0_40x24_f8.png	小倉
+menu/nTplCommon.dat/0220460_0_40x24_f8.png	博多
+menu/nTplCommon.dat/02206C0_0_60x24_f8.png	博多南
+menu/nTplCommon.dat/0220A40_0_96x24_f8.png	博多総合車両所
+menu/nTplCommon.dat/0220F40_0_72x24_f8.png	( 名古屋 )
+menu/nTplCommon.dat/0221320_0_56x24_f8.png	( 東京 )
+menu/nTplCommon.dat/02217E0_0_48x20_f8.png	R 編成
+menu/nTplCommon.dat/0221D60_0_48x20_f8.png	K 編成
+menu/nTplCommon.dat/0222020_0_154x20_f8.png	R 編成こどもサロン連結
+menu/nTplCommon.dat/0222820_0_154x20_f8.png	Sk 編成シネマカ一連結
+menu/nTplCommon.dat/0223020_0_140x20_f8.png	R 編成 + WR 編成併結
+menu/nTplCommon.dat/0224120_0_44x20_f8.png	E 編成
+menu/nTplCommon.dat/02243E0_0_52x20_f8.png	W 編成
+menu/nTplCommon.dat/0224700_0_44x20_f8.png	F 編成
+menu/nTplCommon.dat/02249C0_0_44x20_f8.png	B 編成
+menu/nTplCommon.dat/0224C80_0_48x20_f8.png	G 編成
+menu/nTplCommon.dat/0224F40_0_48x20_f8.png	Q 編成
+menu/nTplCommon.dat/0225200_0_48x20_f8.png	V 編成
+menu/nTplCommon.dat/02254C0_0_48x20_f8.png	P 編成
+menu/nTplCommon.dat/0225780_0_48x20_f8.png	R 編成
+menu/nTplCommon.dat/0225F40_0_86x20_f8.png	0系こだま
+menu/nTplCommon.dat/02263E0_0_112x20_f8.png	500系のぞみ
+menu/nTplCommon.dat/02269A0_0_180x20_f8.png	700系ひかりレールスター
+menu/nTplCommon.dat/02272C0_0_108x20_f8.png	100系こだま
+menu/nTplCommon.dat/0227880_0_108x20_f8.png	300系ひかり
+menu/nTplCommon.dat/0227E40_0_112x20_f8.png	700系のぞみ
+menu/nTplCommon.dat/0228400_0_140x20_f8.png	0系ひかり 107号
+menu/nTplCommon.dat/0228B40_0_164x20_f8.png	700系こだま 723号
+menu/nTplCommon.dat/02293A0_0_168x20_f8.png	500系のぞみ 501号
+menu/nTplCommon.dat/0229C00_0_144x20_f8.png	0系こだま 625号
+menu/nTplCommon.dat/022A340_0_144x20_f8.png	0系こだま 663号
+menu/nTplCommon.dat/022AA80_0_144x20_f8.png	0系ひかり 141号
+menu/nTplCommon.dat/022B1C0_0_164x20_f8.png	100系こだま 667号
+menu/nTplCommon.dat/022BA20_0_132x20_f8.png	0系ひかり 51号
+menu/nTplCommon.dat/022C100_0_164x20_f8.png	100系こだま 491号
+menu/nTplCommon.dat/022C960_0_184x20_f8.png	700系ひかりレールスター 449号
+menu/nTplCommon.dat/022D280_0_144x20_f8.png	0系こだま 579号
+menu/nTplCommon.dat/022D9C0_0_164x20_f8.png	300系ひかり 393号
+menu/nTplCommon.dat/022E220_0_164x20_f8.png	300系ひかり 151号
+menu/nTplCommon.dat/022EA80_0_152x20_f8.png	100系ひかり 47号
+menu/nTplCommon.dat/022F220_0_156x20_f8.png	700系のぞみ 31号
+menu/nTplCommon.dat/022FA20_0_164x20_f8.png	700系こだま 641号
+menu/nTplCommon.dat/0230280_0_164x20_f8.png	500系ひかり 391号
+menu/nTplCommon.dat/0230AE0_0_164x20_f8.png	100系こだま 669号
+menu/nTplCommon.dat/0231340_0_144x20_f8.png	0系こだま 634号
+menu/nTplCommon.dat/0231A80_0_168x20_f8.png	300系こだま 622号
+menu/nTplCommon.dat/02322E0_0_184x20_f8.png	700系ひかりレールスター 440号
+menu/nTplCommon.dat/0232C00_0_156x20_f8.png	700系のぞみ 68号
+menu/nTplCommon.dat/0233400_0_156x20_f8.png	700系のぞみ 22号
+menu/nTplCommon.dat/0233C00_0_144x20_f8.png	0系こだま 656号
+menu/nTplCommon.dat/0234340_0_164x20_f8.png	100系ひかり 174号
+menu/nTplCommon.dat/0234BA0_0_148x20_f8.png	500系のぞみ 2号
+menu/nTplCommon.dat/0235340_0_164x20_f8.png	100系こだま 630号
+menu/nTplCommon.dat/0235BA0_0_184x20_f8.png	700系ひかりレールスター 448号
+menu/nTplCommon.dat/02364C0_0_144x20_f8.png	0系ひかり 552号
+menu/nTplCommon.dat/0236C00_0_156x20_f8.png	300系のぞみ 12号
+menu/nTplCommon.dat/0237400_0_120x20_f8.png	0系ひかり 6号
+menu/nTplCommon.dat/0237A20_0_164x20_f8.png	100系こだま 572号
+menu/nTplCommon.dat/0238280_0_156x20_f8.png	500系のぞみ 26号
+menu/nTplCommon.dat/0238A80_0_164x20_f8.png	100系こだま 628号
+menu/nTplCommon.dat/02392E0_0_144x20_f8.png	0系ひかり 158号
+menu/nTplCommon.dat/0239A20_0_144x20_f8.png	0系ひかり 554号
+menu/nTplCommon.dat/023A160_0_108x20_f8.png	700系こだま
+menu/nTplCommon.dat/023A720_0_60x120_f8.png	車両／始発駅／終者駅／天候／恃問帯
+menu/nTplCommon.dat/023EA80_0_36x20_f8.png	真昼
+menu/nTplCommon.dat/023EF40_0_36x20_f8.png	夕方
+menu/nTplCommon.dat/0262600_0_328x24_f8.png	あ好きな新幹線を運転できるモードです!
+menu/nTplCommon.dat/02635E0_0_640x24_f8.png	Wii ならではの操作方法を取り入れた新しい操作感の運転が楽しめるモードです。
+menu/nTplCommon.dat/0265460_0_492x24_f8.png	好きな駅から好きな駅まで、減点なしで運転できるモードです。
+menu/nTplCommon.dat/0266C20_0_504x24_f8.png	新幹線の様々な写真や映像、音楽などを鑑賞できるモードです。
+menu/nTplCommon.dat/0268440_0_304x24_f8.png	プレイ環境の設定ができるモードです。
+menu/nTplCommon.dat/0269680_0_58x20_f8.png	新神戸
+menu/nTplCommon.dat/0269A00_0_58x20_f8.png	西明石
+menu/nTplCommon.dat/0269D80_0_58x20_f8.png	姫路
+menu/nTplCommon.dat/026A100_0_58x20_f8.png	相生
+menu/nTplCommon.dat/026A480_0_58x20_f8.png	岡山
+menu/nTplCommon.dat/026A800_0_58x20_f8.png	新倉敷
+menu/nTplCommon.dat/026AB80_0_58x20_f8.png	福山
+menu/nTplCommon.dat/026AF00_0_58x20_f8.png	新尾道
+menu/nTplCommon.dat/026BD00_0_58x20_f8.png	新岩国
+menu/nTplCommon.dat/026C080_0_58x20_f8.png	徳山
+menu/nTplCommon.dat/026C400_0_58x20_f8.png	新山口
+menu/nTplCommon.dat/026C780_0_58x20_f8.png	厚狭
+menu/nTplCommon.dat/026CB00_0_58x20_f8.png	新下関
+menu/nTplCommon.dat/026D200_0_58x20_f8.png	博多
+menu/nTplCommon.dat/026D580_0_58x20_f8.png	博多南
+menu/nTplCommon.dat/026D900_0_92x20_f8.png	博多総合車両所
+menu/nTplCommon.dat/026DE00_0_58x20_f8.png	名古屋
+menu/nTplCommon.dat/026E180_0_58x20_f8.png	東京
+menu/nTplCommon.dat/02779A0_0_60x20_f8.png	タイトルへ
+menu/nTplCommon.dat/0277D20_0_60x20_f8.png	キャンセル
+menu/nTplCommon.dat/02782A0_0_32x20_f8.png	選択
+menu/nTplCommon.dat/02784A0_0_60x20_f8.png	項自選択
+menu/nTplCommon.dat/0278A20_0_40x20_f8.png	ダイヤ
+menu/nTplCommon.dat/0278C80_0_32x20_f8.png	戻る
+menu/nTplCommon.dat/0278E80_0_60x20_f8.png	設定変更
+menu/nTplCommon.dat/0279200_0_60x20_f8.png	番号選択
+menu/nTplCommon.dat/0279580_0_32x20_f8.png	再生
+menu/nTplCommon.dat/0279780_0_32x20_f8.png	停止
+menu/nTplCommon.dat/0279980_0_80x20_f8.png	ゲームスタート
+menu/nTplCommon.dat/0279DC0_0_60x20_f8.png	振動確認
+menu/nTplCommon.dat/027A3C0_0_256x20_f6.png	システムデータを上書きしました。
+menu/nTplCommon.dat/0297CE0_0_468x24_f8.png	まずはこれ！新幹線の運転ルールがよくわかるモードです。
+menu/nTplCommon.dat/0299380_0_384x24_f8.png	易しく、短めのダイヤを運転することができます。
+menu/nTplCommon.dat/029A600_0_416x24_f8.png	山陽新幹線の上りダイヤを運転することができます。
+menu/nTplCommon.dat/029BA00_0_416x24_f8.png	山陽新幹線の下りダイヤを運転することができます。
+menu/nTplCommon.dat/029CE00_0_530x24_f8.png	運転を中断したダイヤのつづきより運転を再開することができます。
+menu/nTplCommon.dat/029E7A0_0_904x24_f8.png	■0系こだま 開業以来長らく新幹線の顔であった0系も現在は短編成化。カラーリングを一新しこだまで活躍する。
+menu/nTplCommon.dat/02A1280_0_816x24_f8.png	■500系のぞみ JR西日本が誇る高速列車。営業最高速度300km/hは当時の世界最高速を樹立した。
+menu/nTplCommon.dat/02A3940_0_888x24_f8.png	■ひかりレールスター 山陽新幹線区間の高速化と快適性の向上を目指し登場！常に高乗車率を誇る人気車種。
+menu/nTplCommon.dat/02A6360_0_756x24_f8.png	■100系こだま グランドひかりを短編成化し、0系Q編成の変わりに登場した4両編成の100系。
+menu/nTplCommon.dat/02A8780_0_688x24_f8.png	■300系ひかり 初代のぞみ用車両として登場、東京～新大阪間を2時間半に短縮した。
+menu/nTplCommon.dat/02AA840_0_408x24_f8.png	現在はのぞみ・こだま・ひかりと活躍の幅を広げる。
+menu/nTplCommon.dat/02ABBE0_0_904x24_f8.png	■700系のぞみ 最高時速285km/hに抑えられたものの500系にはない快適な乗り心地を実現した700系のぞみ。
+menu/nTplCommon.dat/02AE6C0_0_454x24_f8.png	■こだま723号 レールスターの車両を使用した「こだま」。
+menu/nTplCommon.dat/02AFCA0_0_598x24_f8.png	広島～博多間に1日1往復運転され、他の「こだま」と比べ所要時間が短い。
+menu/nTplCommon.dat/02B1940_0_888x24_f8.png	■ひかり51号 6両編成のウエストひかりの混雑を解消するためボンネットの中の連結器を使い2編成を併結した。
+menu/nTplCommon.dat/02B4360_0_888x24_f8.png	■のぞみ501号 子供から若い女性まで誰にでも高い人気を誇る500系。山陽路で300km/hの走りを披露した。
+menu/nTplCommon.dat/02B6D80_0_1000x24_f8.png	■こだま491号 2階建てのグリーン車、プライベートを保たれる個室、普通車にもフットレスト…。様々な移動スタイルを提案した。
+menu/nTplCommon.dat/02B9CE0_0_968x24_f8.png	■ひかり449号 朝夕時間帯の2往復に限り停車駅を少なくし所要時間の削減を図った「速達タイプ」のひかりレールスター。
+menu/nTplCommon.dat/02BCAC0_0_916x24_f8.png	■こだま641号 山陽区間で走る16両編成の貴重なこだま号。700系車両を使用し、新大阪～岡山間を走り抜ける。
+menu/nTplCommon.dat/02BF660_0_698x24_f8.png	■ひかり393号 定期列車で岡山以西へ乗り入れる300系ひかり号は一日1往復の運行。
+menu/nTplCommon.dat/02C17E0_0_350x24_f8.png	博多総合車両所への入・出庫も兼ねている。
+menu/nTplCommon.dat/02C28E0_0_884x24_f8.png	■ひかり107号 山陽区間の需要を考え、東京からのひかりを途中から各駅停車としてこだまをフォローしていた。
+menu/nTplCommon.dat/02C5300_0_872x24_f8.png	■こだま625号 運行終了したウエストひかりを6両編成化。側面のウエストマークが誇らしげに掲げられていた。
+menu/nTplCommon.dat/02C7C60_0_882x24_f8.png	■こだま579号 0系の中で一番短い編成のQ編成。山陽新幹線でも一番西の広島～博多南間だけで出会えた。
+menu/nTplCommon.dat/02CA680_0_956x24_f8.png	■ひかり391号 多客時にレールスターの混雑を緩和するため、500系を運転していた。当時でも自由席料金で乗車できた。
+menu/nTplCommon.dat/02CD400_0_520x24_f8.png	■ひかり151号 東京～岡山間運転のひかりは全て300系に統一。
+menu/nTplCommon.dat/02CECE0_0_568x24_f8.png	ひかり 151号は姫路まで各駅停車で姫路発のこだまをフォローしていた。
+menu/nTplCommon.dat/02D0800_0_912x24_f8.png	■こだま663号 今では貴重になった0系車両。この0系を使用するこだま663号は新大阪～広島間で雄姿を見せる。
+menu/nTplCommon.dat/02D3340_0_852x24_f8.png	■ひかり141号 山陽区間を快適に旅行できる様に0系を改良。シネマカー、椅子付きのビュッフェを連結した。
+menu/nTplCommon.dat/02D5BE0_0_776x24_f8.png	■ひかり47号 新幹線で最後の食堂車はこのグランドひかりのもの。もっとも豪華な列車であった。
+menu/nTplCommon.dat/02D80C0_0_598x24_f8.png	■のぞみ31号 東京～広島間を運転している「のぞみ」9往復を博多に延長。
+menu/nTplCommon.dat/02D9D60_0_470x24_f8.png	これにより博多方面への「のぞみ」が毎時 2 本に増便された。
+menu/nTplCommon.dat/02DB400_0_1012x24_f8.png	■こだま667号 内装を2×2列のシートに置き換え、カラーリングもグレーとフレッシュグリーンの塗装に変更した4両編成の100系。
+menu/nTplCommon.dat/02DE420_0_524x24_f8.png	■こだま669号 2000年から運用が開始された6両編成の100系。
+menu/nTplCommon.dat/02DFD60_0_516x24_f8.png	2002 年にはカラーリングを変更。シャープな顔立ちはいまだ健在。
+menu/nTplCommon.dat/02E1640_0_76x120_f8.png	車両／運転区間／難易度／天候／運転士名／ハイスコア
+menu/nTplCommon.dat/02E2A60_0_68x40_f8.png	出発時刻／到着時刻
+menu/nTplCommon.dat/02E3080_0_284x24_f8.png	新幹線の運転をマスターしましょう!
+menu/nTplCommon.dat/02E3E80_0_284x24_f8.png	リアルモードでの運転を解説します。
+menu/nTplCommon.dat/02ED300_0_220x40_f8.png	リアルモード入門
+menu/nTplCommon.dat/02EE500_0_248x40_f8.png	ノーマルモード入門
+menu/nTplCommon.dat/02EF8E0_0_684x24_f8.png	■こだま634号 旧ウエストひかりの編成をリニューアルし、ニューカラーに変更した0系。
+menu/nTplCommon.dat/02F19A0_0_1006x24_f8.png	■こだま622号 こだまはほとんどが6両以下の短編成だが、この列車は300系を使用。広島からの列車の到着前に三原を発車。
+menu/nTplCommon.dat/02F4960_0_944x24_f8.png	■ひかり440号 レールスターの一部指定席が自由席で乗れるひかり440号。指定料金無しで快適な2×2列が体験可能。
+menu/nTplCommon.dat/02F7620_0_366x24_f8.png	■のぞみ68号 16両編成を誇る700系B編成。
+menu/nTplCommon.dat/02F87E0_0_662x24_f8.png	当初はひかりとして利用されたが、のぞみの増発に伴いのぞみに活躍の場を広げた。
+menu/nTplCommon.dat/02FA780_0_964x24_f8.png	■のぞみ22号 300系と入れ替える形でのぞみに投入された700系のぞみ。その快適な乗り心地は高い人気を誇っている。
+menu/nTplCommon.dat/02FD560_0_740x24_f8.png	■こだま656号 座席を100系で使用するタイプに変更し、3列側も回転するようになっていた。
+menu/nTplCommon.dat/02FF8C0_0_988x24_f8.png	■ひかり174号 停車駅の多いひかりに使用される時代、2階建てを2両連結し華やかな時代を髣髴とさせる走りを見せていた。
+menu/nTplCommon.dat/03027C0_0_812x24_f8.png	■のぞみ2号 その特徴的なロングノーズと見た目を裏切らない高い速度性能で鉄道ファンのみならず、
+menu/nTplCommon.dat/0304E80_0_228x24_f8.png	子供や若者にも人気が高い。
+menu/nTplCommon.dat/03059E0_0_800x24_f8.png	■こだま630号 長距離運用から離脱した100系を4両編成に再構築し、近距離の都市間輸送に利用。
+menu/nTplCommon.dat/0307FE0_0_728x24_f8.png	■ひかり448号 指定席では隣席間の肘掛やリクライニング角度も大きく快適な旅路を実現。
+menu/nTplCommon.dat/030A280_0_380x24_f8.png	なお、ひかり448号は博多南線からの直通列車。
+menu/nTplCommon.dat/030B500_0_848x24_f8.png	■ひかり552号 レールスターが運転を始めた後も、全ての編成が揃うまで走り続けた最後のウエストひかり。
+menu/nTplCommon.dat/030DD40_0_776x24_f8.png	■のぞみ12号 山陽新幹線に300系登場直後のダイヤを再現。300系の雄姿を目に焼き付けよう！
+menu/nTplCommon.dat/0310220_0_672x24_f8.png	■ひかり6号 方向幕の駅名が赤字で表記されていた0系最速列車。通称「赤ひかり」。
+menu/nTplCommon.dat/0312220_0_936x24_f8.png	■こだま572号 0系の老朽化と100系V編成の余剰から100系を4両編成に改造。4両編成0系と共通運用されていた。
+menu/nTplCommon.dat/0314E80_0_700x24_f8.png	■のぞみ26号 最高速度300km/hの500系。その性能は山陽新幹線区間で発揮される。
+menu/nTplCommon.dat/0317000_0_956x24_f8.png	■こだま628号 グランドひかりから転用して、新たに6車両に再構築された「こだま」。新岩国～新大阪まで各駅停車する。
+menu/nTplCommon.dat/0319D80_0_770x24_f8.png	■ひかり158号 こだま用の車両を用いて山陽区間の都市間を連結。「シャトルひかり」と呼ばれた。
+menu/nTplCommon.dat/031C260_0_996x24_f8.png	■ひかり554号 最後まで残っていた0系ひかり。こどもサロンを設置した車両を使い、帰省シーズンの子供の旅を演出していた。
+menu/nTplCommon.dat/0320000_0_88x20_f8.png	ダイジェスト・入門
+menu/nTplCommon.dat/03204A0_0_32x20_f8.png	上り
+menu/nTplCommon.dat/03206A0_0_32x20_f8.png	下り
+menu/nTplCommon.dat/03208A0_0_80x20_f8.png	コンティニュー
+menu/nTplCommon.dat/0322860_0_288x48_f8.png	天候／時間帯／難易度／ハイスコア／点
+menu/nTplCommon.dat/03243E0_0_288x48_f8.png	天候／時間帯／難易度／ハイスコア／点
+menu/nTplCommon.dat/0325F60_0_288x48_f8.png	天候／時間帯／難易度／ハイスコア／休日運行
+menu/nTplCommon.dat/0327AE0_0_148x40_f8.png	ダイヤ選択
+menu/nTplCommon.dat/0328740_0_188x28_f8.png	<ダイジェスト・入門>
+menu/nTplCommon.dat/03293C0_0_88x28_f8.png	<上り>
+menu/nTplCommon.dat/03299C0_0_88x28_f8.png	<下り>
+menu/nTplCommon.dat/0329FC0_0_196x40_f8.png	コンティニュー
+menu/nTplCommon.dat/032B260_0_212x72_f9.png	フリーランスタート
+menu/nTplCommon.dat/0331440_0_60x120_f8.png	車両／始発駅／終着駅／天候／時間帯
+menu/nTplCommon.dat/03323C0_0_224x24_f8.png	運転する車両を変更します。
+menu/nTplCommon.dat/0332EC0_0_168x24_f8.png	始発駅を変更します。
+menu/nTplCommon.dat/0333720_0_168x24_f8.png	終着駅を変更します。
+menu/nTplCommon.dat/0333F80_0_148x24_f8.png	天候を変更します。
+menu/nTplCommon.dat/0334720_0_168x24_f8.png	時間帯を変更します。
+menu/nTplCommon.dat/0334F80_0_324x24_f8.png	上記の設定でフリーランをスタートします。
+menu/nTplCommon.dat/0335F60_0_376x24_f8.png	始発駅と終着駅は、別の駅を指定してください。
+menu/nTplCommon.dat/0337940_0_68x20_f8.png	真昼
+menu/nTplCommon.dat/03384E0_0_68x20_f8.png	ランダム
+menu/nTplCommon.dat/03391C0_0_136x30_f8.png	100系
+menu/nTplCommon.dat/0339AC0_0_136x30_f8.png	300系
+menu/nTplCommon.dat/033A3C0_0_136x30_f8.png	500系
+menu/nTplCommon.dat/033ACC0_0_136x30_f8.png	700系
+menu/nTplCommon.dat/033B5C0_0_168x22_f8.png	0系こだま
+menu/nTplCommon.dat/033BE20_0_170x22_f8.png	100系グランドひかり
+menu/nTplCommon.dat/033C6E0_0_168x22_f8.png	300系ひかり
+menu/nTplCommon.dat/033CF40_0_168x22_f8.png	500系のぞみ
+menu/nTplCommon.dat/033D7A0_0_168x22_f8.png	700系のぞみ
+menu/nTplCommon.dat/033E000_0_168x22_f8.png	ひかりレールスター
+menu/nTplCommon.dat/033E860_0_420x56_f8.png	新大阪／新神戸／西明石／姫路／相生／岡山／新倉敷／福山／新尾道／三原／東広島／広島／新岩国／徳山／新山口／厚狭／新下関／小倉／博多
+menu/nTplCommon.dat/0341740_0_420x56_f8.png	新大阪／新神戸／西明石／姫路／相生／岡山／新倉敷／福山／新尾道／三原／東広島／広島／新岩国／徳山／新山口／厚狭／新下関／小倉／博多
+menu/nTplCommon.dat/0345C00_0_68x20_f8.png	雷雨
+menu/nTplCommon.dat/0345FE0_0_164x40_f8.png	フリーラン
+menu/nTplCommon.dat/0346D80_0_92x22_f8.png	次停車駅:
+menu/nTplCommon.dat/0351380_0_224x232_f9.png	鉄道写真 Train Photo／鉄道模型 Train Model／鉄道映像 Train Movie／鉄道音楽 Train Sound
+menu/nTplCommon.dat/035E0E0_0_224x232_f9.png	鉄道写真 Train Photo／鉄道模型 Train Model／鉄道映像 Train Movie／鉄道音楽 Train Sound
+menu/nTplCommon.dat/036AE40_0_224x232_f9.png	鉄道写真 Train Photo／鉄道模型 Train Model／鉄道映像 Train Movie／鉄道音楽 Train Sound
+menu/nTplCommon.dat/0377BA0_0_122x24_f8.png	運転BGM1ch
+menu/nTplCommon.dat/0378220_0_122x24_f8.png	運転BGM2ch
+menu/nTplCommon.dat/03788A0_0_122x24_f8.png	運転BGM3ch
+menu/nTplCommon.dat/0378F20_0_68x24_f8.png	メニュー
+menu/nTplCommon.dat/0379300_0_102x24_f8.png	エンディング
+menu/nTplCommon.dat/0379860_0_188x24_f8.png	新神戸駅の安全柵開く
+menu/nTplCommon.dat/037A1E0_0_386x24_f8.png	車内チャイムいい日旅立ち・西へ始発・終着駅
+menu/nTplCommon.dat/037B4C0_0_338x24_f8.png	車内チャイムいい日旅立ち・西へ途中駅
+menu/nTplCommon.dat/037C560_0_284x24_f8.png	車内チャイムのぞみ始発・終着駅
+menu/nTplCommon.dat/037D360_0_236x24_f8.png	車内チャイムのぞみ
+menu/nTplCommon.dat/037DF20_0_342x24_f8.png	車内チャイムひかり・こだま始発・終着駅
+menu/nTplCommon.dat/037EFC0_0_294x24_f8.png	車内チャイムひかり・こだま途中駅
+menu/nTplCommon.dat/037FE20_0_112x24_f8.png	GOOD!停車
+menu/nTplCommon.dat/0380A60_0_98x24_f8.png	全区間走破
+menu/nTplCommon.dat/038F180_0_212x24_f8.png	0系 R 編成 + WR 編成併結
+menu/nTplCommon.dat/038FC20_0_112x24_f8.png	0系 NH 編成
+menu/nTplCommon.dat/03901E0_0_228x24_f8.png	0系 R 編成 3 列座席回転車
+menu/nTplCommon.dat/0390D40_0_156x24_f8.png	0系 R 編成旧塗装
+menu/nTplCommon.dat/0391540_0_244x24_f8.png	0系 R 編成こどもサロン連結
+menu/nTplCommon.dat/0392160_0_230x24_f8.png	0系 R 編成フレッシュカラー
+menu/nTplCommon.dat/0392CC0_0_284x24_f8.png	0系 WR 編成ウ工ストひかりタイプ
+menu/nTplCommon.dat/0394080_0_232x24_f8.png	0系 SK編成 シネマカー連結
+menu/nTplCommon.dat/0394BE0_0_104x24_f8.png	0系 Q編成
+menu/nTplCommon.dat/03963A0_0_250x24_f8.png	100系 P編成 フレッシュカラー
+menu/nTplCommon.dat/0397020_0_250x24_f8.png	100系 K編成 フレッシュカラー
+menu/nTplCommon.dat/03982C0_0_120x24_f8.png	500系 W 編成
+menu/nTplCommon.dat/03988E0_0_100x24_f8.png	レールスター
+menu/nTplCommon.dat/03999C0_0_120x24_f8.png	0系スペシャル
+menu/nTplCommon.dat/0399FE0_0_140x24_f8.png	100系スペシャル
+menu/nTplCommon.dat/039A720_0_140x24_f8.png	300系スペシャル
+menu/nTplCommon.dat/039AE60_0_140x24_f8.png	500系スペシャル
+menu/nTplCommon.dat/039B5A0_0_184x24_f8.png	し一ルスタースペシャル
+menu/nTplCommon.dat/039BEC0_0_140x24_f8.png	700系スペシャル
+menu/nTplCommon.dat/03D1DC0_0_98x24_f8.png	レールスター
+menu/nTplCommon.dat/03D32C0_0_72x72_f8.png	楽曲／音声／効果音
+menu/nTplCommon.dat/03D3D60_0_396x24_f8.png	ゲームで使われているBGMを聞くことができます。
+menu/nTplCommon.dat/03D50A0_0_396x24_f8.png	ゲームで使われている音声を聞くことができます。
+menu/nTplCommon.dat/03D63E0_0_408x24_f8.png	ゲームで使われている効果音を聞くことができます。
+menu/nTplCommon.dat/03D7780_0_260x24_f8.png	新幹線の写真を展示しています。
+menu/nTplCommon.dat/03D8460_0_520x24_f8.png	ゲームに登場した新幹線を自由な角度から眺めることができます。
+menu/nTplCommon.dat/03D9D40_0_468x24_f8.png	オープニングをはじめ、さまざまな新幹線映像を集めました。
+menu/nTplCommon.dat/03DB3E0_0_504x24_f8.png	ゲームで使われている楽曲、音声、効果音を聞くことができます。
+menu/nTplCommon.dat/03DCC00_0_80x20_f8.png	前の写真へ
+menu/nTplCommon.dat/03DD040_0_80x20_f8.png	次の写真へ
+menu/nTplCommon.dat/03DD480_0_72x20_f8.png	キャンセル
+menu/nTplCommon.dat/03DDC40_0_80x20_f8.png	次の車両へ
+menu/nTplCommon.dat/03DE080_0_64x20_f8.png	元に戻す
+menu/nTplCommon.dat/03DE400_0_36x20_f8.png	回転
+menu/nTplCommon.dat/03DE660_0_36x20_f8.png	拡大
+menu/nTplCommon.dat/03DED80_0_202x24_f8.png	ATC 指示変更音その 1
+menu/nTplCommon.dat/03DF7C0_0_202x24_f8.png	ATC 指示変更音その 2
+menu/nTplCommon.dat/03E0200_0_150x24_f8.png	ATCブレーキ作動
+menu/nTplCommon.dat/03E09A0_0_112x24_f8.png	CTC センター
+menu/nTplCommon.dat/03E0F60_0_112x24_f8.png	知らせ灯点灯
+menu/nTplCommon.dat/03E1520_0_42x24_f8.png	警笛
+menu/nTplCommon.dat/03E1BC0_0_90x24_f8.png	スキール音
+menu/nTplCommon.dat/03E20C0_0_126x24_f8.png	プし一キ摩擦音
+menu/nTplCommon.dat/03E2740_0_144x24_f8.png	ブレーキ音その 1
+menu/nTplCommon.dat/03E2E80_0_144x24_f8.png	ブレーキ音その 2
+menu/nTplCommon.dat/03E35C0_0_224x24_f8.png	空気プし一キ、工ア音その 1
+menu/nTplCommon.dat/03E40C0_0_224x24_f8.png	空気プし一キ、工ア音その 2
+menu/nTplCommon.dat/03E4BC0_0_179x24_f8.png	客車プラグドア OPEN
+menu/nTplCommon.dat/03E54E0_0_190x24_f8.png	客車プラグドア CLOSE
+menu/nTplCommon.dat/03E6240_0_116x24_f8.png	決定音その 1
+menu/nTplCommon.dat/03E6860_0_116x24_f8.png	決定音その 2
+menu/nTplCommon.dat/03E6E80_0_108x24_f8.png	モード表示音
+menu/nTplCommon.dat/03E7440_0_196x24_f8.png	SAVE/LOAD完了音
+menu/nTplCommon.dat/03E8460_0_80x24_f8.png	運転中止
+menu/nTplCommon.dat/03E88A0_0_124x40_f8.png	資料館
+menu/nTplCommon.dat/03E9320_0_536x24_f8.png	車内車掌放送(出発):700系のぞみ 新大阪出発後車内アナウンス
+menu/nTplCommon.dat/03EACC0_0_558x24_f8.png	車内車掌放送(出発):ひかりレールスター小倉出発後車内アナウンス
+menu/nTplCommon.dat/03EC780_0_536x24_f8.png	車内車掌放送(出発):500系のぞみ号 小倉発車後車内アナウンス
+menu/nTplCommon.dat/03EE120_0_552x24_f8.png	車内車掌放送(出発):300系ひかり号新大阪発車後車内アナウンス
+menu/nTplCommon.dat/03EFB80_0_534x24_f8.png	車内車掌放送(出発):100系こだま号博多出発後車内アナウンス
+menu/nTplCommon.dat/03F1520_0_530x24_f8.png	車内車掌放送(出発):0系こだま号 岡山駅出発後車内アナウンス
+menu/nTplCommon.dat/03F2EC0_0_526x24_f8.png	車内車掌放送(到着):のぞみ 68号新大阪到着前車内アナウンス
+menu/nTplCommon.dat/03F4800_0_498x24_f8.png	車内車掌放送(到着):ひかり号新神戸到着前車内アナウンス
+menu/nTplCommon.dat/03F6020_0_500x24_f8.png	車内車掌放送(到着):こだま号西明石到着前車内アナウンス
+menu/nTplCommon.dat/03F7840_0_514x24_f8.png	車内車掌放送(到着):ひかり 393号姫路到着前車内アナウンス
+menu/nTplCommon.dat/03F9120_0_482x24_f8.png	車内車掌放送(到着):こだま号相生到着前車内アナウンス
+menu/nTplCommon.dat/03FA880_0_506x24_f8.png	車内車掌放送(到着):のぞみ 31号岡山到着前車内アナウンス
+menu/nTplCommon.dat/03FC100_0_500x24_f8.png	車内車掌放送(到着):こだま号新倉敷到着前車内アナウンス
+menu/nTplCommon.dat/03FD920_0_610x24_f8.png	車内車掌放送(到着):ひかり 449号レールスター福山到着前車内アナウンス
+menu/nTplCommon.dat/03FF680_0_482x24_f8.png	車内車掌放送(到着):こだま号新尾道到着車内アナウンス
+menu/nTplCommon.dat/0400DE0_0_610x24_f8.png	車内車掌放送(到着):ひかり 440号レールスター三原到着前車内アナウンス
+menu/nTplCommon.dat/0402B40_0_500x24_f8.png	車内車掌放送(到着):こだま号東広島到着前車内アナウンス
+menu/nTplCommon.dat/0404360_0_494x24_f8.png	車内車掌放送(到着):のぞみ 2号広島到着前車内アナウンス
+menu/nTplCommon.dat/0405B20_0_462x24_f8.png	車内車掌放送(到着):こだま号新岩国到着前アナウンス
+menu/nTplCommon.dat/0407160_0_514x24_f8.png	車内車掌放送(到着):ひかり 393号徳山到着前車内アナウンス
+menu/nTplCommon.dat/0408A40_0_526x24_f8.png	車内車掌放送(到着):のぞみ 31号新山口到着前車内アナウンス
+menu/nTplCommon.dat/040A380_0_482x24_f8.png	車内車掌放送(到着):こだま号厚狭到着前車内アナウンス
+menu/nTplCommon.dat/040BAE0_0_500x24_f8.png	車内車掌放送(到着):こだま号新下関到着前車内アナウンス
+menu/nTplCommon.dat/040D300_0_484x24_f8.png	車内車掌放送(到着):のぞみ号小倉到着前車内アナウンス
+menu/nTplCommon.dat/040EA60_0_648x24_f8.png	車内車掌放送(到着):ひかり 449号レールスター終点博多到着前車内アナウンス
+menu/nTplCommon.dat/0410940_0_420x24_f8.png	車内車掌放送(到着):博多南線博多到着アナウンス
+menu/nTplCommon.dat/0411DA0_0_476x24_f8.png	車内車掌放送(到着):博多南線終点博多南到着アナウンス
+menu/nTplCommon.dat/04134A0_0_546x24_f8.png	車内車掌放送(通過待ち):のぞみ号通過待ち車内アナウンス ( 男性 )
+menu/nTplCommon.dat/0414F00_0_546x24_f8.png	車内車掌放送(通過待ち):のぞみ号通過待ち車内アナウンス ( 女性 )
+menu/nTplCommon.dat/0416960_0_540x24_f8.png	車内車掌放送(通過待ち):ひかり号通過待ち車内アナウンス ( 男性 )
+menu/nTplCommon.dat/0418360_0_540x24_f8.png	車内車掌放送(通過待ち):ひかり号通過待ち車内アナウンス ( 女性 )
+menu/nTplCommon.dat/0419D60_0_524x24_f8.png	車内車掌放送(通過待ち):その他通過待ち車内アナウンス ( 男性 )
+menu/nTplCommon.dat/041B6A0_0_524x24_f8.png	車内車掌放送(通過待ち):その他通過待ち車内アナウンス ( 女性 )
+menu/nTplCommon.dat/041CFE0_0_400x24_f8.png	駅構内放送(到着):新大阪到着駅構内アナウンス
+menu/nTplCommon.dat/041E320_0_400x24_f8.png	駅構内放送(到着):新神戸到着駅構内アナウンス
+menu/nTplCommon.dat/041F660_0_400x24_f8.png	駅構内放送(到着):西明石到着駅構内アナウンス
+menu/nTplCommon.dat/04209A0_0_382x24_f8.png	駅構内放送(到着):姫路到着駅構内アナウンス
+menu/nTplCommon.dat/0421C20_0_382x24_f8.png	駅構内放送(到着):相生到着駅構内アナウンス
+menu/nTplCommon.dat/0422EA0_0_382x24_f8.png	駅構内放送(到着):岡山到着駅構内アナウンス
+menu/nTplCommon.dat/0424120_0_400x24_f8.png	駅構内放送(到着):新倉敷到着駅構内アナウンス
+menu/nTplCommon.dat/0425460_0_382x24_f8.png	駅構内放送(到着):福山到着駅構内アナウンス
+menu/nTplCommon.dat/04266E0_0_400x24_f8.png	駅構内放送(到着):新尾道到着駅構内アナウンス
+menu/nTplCommon.dat/0427A20_0_382x24_f8.png	駅構内放送(到着):三原到着駅構内アナウンス
+menu/nTplCommon.dat/0428CA0_0_400x24_f8.png	駅構内放送(到着):東広島到着駅構内アナウンス
+menu/nTplCommon.dat/0429FE0_0_382x24_f8.png	駅構内放送(到着):広島到着駅構内アナウンス
+menu/nTplCommon.dat/042B260_0_400x24_f8.png	駅構内放送(到着):新岩国到着駅構内アナウンス
+menu/nTplCommon.dat/042C5A0_0_382x24_f8.png	駅構内放送(到着):徳山到着駅構内アナウンス
+menu/nTplCommon.dat/042D820_0_400x24_f8.png	駅構内放送(到着):新山口到着駅構内アナウンス
+menu/nTplCommon.dat/042EB60_0_382x24_f8.png	駅構内放送(到着):厚狭到着駅構内アナウンス
+menu/nTplCommon.dat/042FDE0_0_400x24_f8.png	駅構内放送(到着):新下関到着駅構内アナウンス
+menu/nTplCommon.dat/0431120_0_382x24_f8.png	駅構内放送(到着):小倉到着駅構内アナウンス
+menu/nTplCommon.dat/04323A0_0_382x24_f8.png	駅構内放送(到着):博多到着駅構内アナウンス
+menu/nTplCommon.dat/0433620_0_630x24_f8.png	駅構内放送(発車):ひかり 449号レールスター新大阪発車前駅構内アナウンス
+menu/nTplCommon.dat/0435440_0_534x24_f8.png	駅構内放送(発車):こだま 641号新神戸発車前駅構内アナウンス
+menu/nTplCommon.dat/0436DE0_0_534x24_f8.png	駅構内放送(発車):こだま 622号西明石発車前駅構内アナウンス
+menu/nTplCommon.dat/0438780_0_506x24_f8.png	駅構内放送(発車):のぞみ 68号姫路発車前駅構内アナウンス
+menu/nTplCommon.dat/043A000_0_516x24_f8.png	駅構内放送(発車):こだま 628号相生発車前駅構内アナウンス
+menu/nTplCommon.dat/043B8E0_0_506x24_f8.png	駅構内放送(発車):のぞみ 31号岡山発車前駅構内アナウンス
+menu/nTplCommon.dat/043D160_0_534x24_f8.png	駅構内放送(発車):こだま 630号新倉敷発車前駅構内アナウンス
+menu/nTplCommon.dat/043EB00_0_610x24_f8.png	駅構内放送(発車):ひかり 448号レールスター福山発車前駅構内アナウンス
+menu/nTplCommon.dat/0440860_0_534x24_f8.png	駅構内放送(発車):こだま 663号新尾道発車前駅構内アナウンス
+menu/nTplCommon.dat/0442200_0_610x24_f8.png	駅構内放送(発車):ひかり 440号レールスター三原発車前駅構内アナウンス
+menu/nTplCommon.dat/0443F60_0_534x24_f8.png	駅構内放送(発車):こだま 66 了号東広島発車前駅構内アナウンス
+menu/nTplCommon.dat/0445900_0_496x24_f8.png	駅構内放送(発車):のぞみ 2号広島発車前駅構内アナウンス
+menu/nTplCommon.dat/04470C0_0_534x24_f8.png	駅構内放送(発車):こだま 634号新岩国発車前駅構内アナウンス
+menu/nTplCommon.dat/0448A60_0_514x24_f8.png	駅構内放送(発車):ひかり 393号徳山発車前駅構内アナウンス
+menu/nTplCommon.dat/044A340_0_526x24_f8.png	駅構内放送(発車):のぞみ 31号新山口発車前駅構内アナウンス
+menu/nTplCommon.dat/044BC80_0_516x24_f8.png	駅構内放送(発車):こだま 669号厚狭発車前駅構内アナウンス
+menu/nTplCommon.dat/044D560_0_534x24_f8.png	駅構内放送(発車):こだま了 23号新下関発車前駅構内アナウンス
+menu/nTplCommon.dat/044EF00_0_610x24_f8.png	駅構内放送(発車):ひかり 448号レールスター小倉発車前駅構内アナウンス
+menu/nTplCommon.dat/0450C60_0_506x24_f8.png	駅構内放送(発車):のぞみ 22号博多発車前駅構内アナウンス
+menu/nTplCommon.dat/04524E0_0_476x24_f8.png	駅構内放送(発車):博多南線博多発車前駅構内アナウンス
+menu/nTplCommon.dat/0453BE0_0_494x24_f8.png	駅構内放送(発車):博多南線博多南発車前駅構内アナウンス
+menu/nTplCommon.dat/04553A0_0_372x24_f8.png	運転士一連の確認:博多南線博多南発車定発
+menu/nTplCommon.dat/04565C0_0_372x24_f8.png	運転士一連の確認:博多南線博多停車場接近
+menu/nTplCommon.dat/04577E0_0_352x24_f8.png	運転士一連の確認:博多南線博多停車定着
+menu/nTplCommon.dat/04588E0_0_390x24_f8.png	運転士一連の確認:こだま号博多発車10秒延発
+menu/nTplCommon.dat/0459BC0_0_366x24_f8.png	運転士一連の確認:こだま号小倉停車場接近
+menu/nTplCommon.dat/045AD80_0_390x24_f8.png	運転士一連の確認:こだま号小倉停車10秒延着
+menu/nTplCommon.dat/045C060_0_348x24_f8.png	運転士一連の確認:こだま号小倉発車定発
+menu/nTplCommon.dat/045D160_0_386x24_f8.png	運転士一連の確認:こだま号新下関停車場接近
+menu/nTplCommon.dat/045E440_0_408x24_f8.png	運転士一連の確認:こだま号新下関停車10秒早着
+menu/nTplCommon.dat/045F7E0_0_408x24_f8.png	運転士一連の確認:こだま号新下関発車20秒延発
+menu/nTplCommon.dat/0460B80_0_366x24_f8.png	運転士一連の確認:こだま号厚狭停車場接近
+menu/nTplCommon.dat/0461D40_0_348x24_f8.png	運転士一連の確認:こだま号厚狭停車定着
+menu/nTplCommon.dat/0462E40_0_348x24_f8.png	運転士一連の確認:こだま号厚狭発車定発
+menu/nTplCommon.dat/0463F40_0_386x24_f8.png	運転士一連の確認:こだま号新山口停車場接近
+menu/nTplCommon.dat/0465220_0_408x24_f8.png	運転士一連の確認:こだま号新山口停車20秒延着
+menu/nTplCommon.dat/04665C0_0_408x24_f8.png	運転士一連の確認:こだま号新山口発車30秒延発
+menu/nTplCommon.dat/0467960_0_366x24_f8.png	運転士一連の確認:こだま号徳山停車場接近
+menu/nTplCommon.dat/0468B20_0_390x24_f8.png	運転士一連の確認:こだま号徳山停車20秒早着
+menu/nTplCommon.dat/0469E00_0_344x24_f8.png	運転士一連の確認:こだま号徳山発車定発
+menu/nTplCommon.dat/046AEA0_0_386x24_f8.png	運転士一連の確認:こだま号新岩国停車場接近
+menu/nTplCommon.dat/046C180_0_366x24_f8.png	運転士一連の確認:こだま号新岩国停車定着
+menu/nTplCommon.dat/046D340_0_408x24_f8.png	運転士一連の確認:こだま号新岩国発車10秒延発
+menu/nTplCommon.dat/046E6E0_0_366x24_f8.png	運転士一連の確認:こだま号広島停車場接近
+menu/nTplCommon.dat/046F8A0_0_390x24_f8.png	運転士一連の確認:こだま号広島停車30秒延着
+menu/nTplCommon.dat/0470B80_0_348x24_f8.png	運転士一連の確認:こだま号広島発車定発
+menu/nTplCommon.dat/0471C80_0_386x24_f8.png	運転士一連の確認:こだま号東広島停車場接近
+menu/nTplCommon.dat/0472F60_0_408x24_f8.png	運転士一連の確認:こだま号東広島停車30秒早着
+menu/nTplCommon.dat/0474300_0_408x24_f8.png	運転士一連の確認:こだま号東広島発車20秒延発
+menu/nTplCommon.dat/04756A0_0_366x24_f8.png	運転士一連の確認:こだま号三原停車場接近
+menu/nTplCommon.dat/0476860_0_348x24_f8.png	運転士一連の確認:こだま号三原停車定着
+menu/nTplCommon.dat/0477960_0_348x24_f8.png	運転士一連の確認:こだま号三原発車定発
+menu/nTplCommon.dat/0478A60_0_386x24_f8.png	運転士一連の確認:こだま号新尾道停車場接近
+menu/nTplCommon.dat/0479D40_0_408x24_f8.png	運転士一連の確認:こだま号新尾道停車10秒延着
+menu/nTplCommon.dat/047B0E0_0_408x24_f8.png	運転士一連の確認:こだま号新尾道発車30秒延発
+menu/nTplCommon.dat/047C480_0_366x24_f8.png	運転士一連の確認:こだま号福山停車場接近
+menu/nTplCommon.dat/047D640_0_390x24_f8.png	運転士一連の確認:こだま号福山停車10秒早着
+menu/nTplCommon.dat/047E920_0_348x24_f8.png	運転士一連の確認:こだま号福山発車定発
+menu/nTplCommon.dat/047FA20_0_386x24_f8.png	運転士一連の確認:こだま号新倉敷停車場接近
+menu/nTplCommon.dat/0480D00_0_366x24_f8.png	運転士一連の確認:こだま号新倉敷停車定着
+menu/nTplCommon.dat/0481EC0_0_408x24_f8.png	運転士一連の確認:こだま号新倉敷発車10秒延発
+menu/nTplCommon.dat/0483260_0_366x24_f8.png	運転士一連の確認:こだま号岡山停車場接近
+menu/nTplCommon.dat/0484420_0_390x24_f8.png	運転士一連の確認:こだま号岡山停車20秒延着
+menu/nTplCommon.dat/0485700_0_348x24_f8.png	運転士一連の確認:こだま号岡山発車定発
+menu/nTplCommon.dat/0486800_0_366x24_f8.png	運転士一連の確認:こだま号相生停車場接近
+menu/nTplCommon.dat/04879C0_0_390x24_f8.png	運転士一連の確認:こだま号相生停車20秒早着
+menu/nTplCommon.dat/0488CA0_0_390x24_f8.png	運転士一連の確認:こだま号相生発車10秒延発
+menu/nTplCommon.dat/0489F80_0_366x24_f8.png	運転士一連の確認:こだま号姫路停車場接近
+menu/nTplCommon.dat/048B140_0_348x24_f8.png	運転士一連の確認:こだま号姫路停車定着
+menu/nTplCommon.dat/048C240_0_348x24_f8.png	運転士一連の確認:こだま号姫路発車定発
+menu/nTplCommon.dat/048D340_0_386x24_f8.png	運転士一連の確認:こだま号西明石停車場接近
+menu/nTplCommon.dat/048E620_0_408x24_f8.png	運転士一連の確認:こだま号西明石停車30秒延着
+menu/nTplCommon.dat/048F9C0_0_408x24_f8.png	運転士一連の確認:こだま号西明石発車20秒延発
+menu/nTplCommon.dat/0490D60_0_386x24_f8.png	運転士一連の確認:こだま号新神戸停車場接近
+menu/nTplCommon.dat/0492040_0_408x24_f8.png	運転士一連の確認:こだま号新神戸停車30秒早着
+menu/nTplCommon.dat/04933E0_0_366x24_f8.png	運転士一連の確認:こだま号新神戸発車定発
+menu/nTplCommon.dat/04945A0_0_386x24_f8.png	運転士一連の確認:こだま号新大阪停車場接近
+menu/nTplCommon.dat/0495880_0_366x24_f8.png	運転士一連の確認:こだま号新大阪停車定着
+menu/nTplCommon.dat/0496A40_0_380x24_f8.png	駅員:「おさがりください。電車入っております。」
+menu/nTplCommon.dat/0497CC0_0_234x24_f8.png	駅員:「電車入っております。」
+menu/nTplCommon.dat/0498880_0_224x24_f8.png	駅員:「安全柵が開きます。」
+menu/nTplCommon.dat/0499380_0_238x24_f8.png	駅員:「電車が発車しまーす。」
+menu/nTplCommon.dat/0499F40_0_338x24_f8.png	駅員:「ドアが閉まりますご注意ください。」
+menu/nTplCommon.dat/049AFE0_0_618x24_f8.png	駅員:「この電車遅れて到着したため、停車時間わずかです!お急ぎください!」
+menu/nTplCommon.dat/049CDA0_0_428x24_f8.png	駅員:「発車時刻が過ぎております!お急ぎください!」
+menu/nTplCommon.dat/049E260_0_690x24_f8.png	駅員:「危ないです!おさがりください!おさがりください!危険です!おさがりください!」
+menu/nTplCommon.dat/04A0380_0_240x24_f8.png	運転士:「信号×(ばってん)」
+menu/nTplCommon.dat/04A0F40_0_174x24_f8.png	運転士:「信号、30!」
+menu/nTplCommon.dat/04A1800_0_174x24_f8.png	運転士:「信号、70!」
+menu/nTplCommon.dat/04A20C0_0_186x24_f8.png	運転士:「信号、120!」
+menu/nTplCommon.dat/04A2A40_0_186x24_f8.png	運転士:「信号、170!」
+menu/nTplCommon.dat/04A33C0_0_186x24_f8.png	運転士:「信号、220!」
+menu/nTplCommon.dat/04A3D40_0_186x24_f8.png	運転士:「信号、230!」
+menu/nTplCommon.dat/04A46C0_0_186x24_f8.png	運転士:「信号、270!」
+menu/nTplCommon.dat/04A5040_0_186x24_f8.png	運転士:「信号、275!」
+menu/nTplCommon.dat/04A59C0_0_186x24_f8.png	運転士:「信号、285!」
+menu/nTplCommon.dat/04A6340_0_186x24_f8.png	運転士:「信号、300!」
+menu/nTplCommon.dat/04A6CC0_0_176x24_f8.png	運転士:「制限解除!」
+menu/nTplCommon.dat/04A7580_0_174x24_f8.png	運転士:「制限、40!」
+menu/nTplCommon.dat/04A7E40_0_212x24_f8.png	運転士:「異常ありません
+menu/nTplCommon.dat/04A88E0_0_138x24_f8.png	運転士:「了解!」
+menu/nTplCommon.dat/04A9020_0_362x24_f8.png	CTC「こちらはCTCセンター輸送指令です。」
+menu/nTplCommon.dat/04AA1E0_0_416x24_f8.png	CTC「予定より遅れていますが、何かありましたか?」
+menu/nTplCommon.dat/04AB5E0_0_364x24_f8.png	CTC「停車していますが、何かありましたか?」
+menu/nTplCommon.dat/04AC7A0_0_214x24_f8.png	CTC「出発してください!」
+menu/nTplCommon.dat/04AD240_0_434x24_f8.png	CTC「運転士に問題発生の模様。運転を中止します!」
+menu/nTplCommon.dat/04AE760_0_474x24_f8.png	CTC「先行列車に接近しすぎです。速度を落として下さい!」
+menu/nTplCommon.dat/04AFE60_0_242x24_f8.png	鉄ちゃんボイス「電車でGO!」
+menu/nTplCommon.dat/04D11C0_0_640x24_f8.png	ハイスコア更新おめでとうございます!あなたのニックネームを入力してください。
+menu/nTplCommon.dat/04D3040_0_90x16_f8.png	選択 / 文字切替
+menu/nTplCommon.dat/04D3680_0_306x52_f9.png	ひらがな／カタカナ／英数記号
+menu/nTplCommon.dat/04D7840_0_306x52_f9.png	ひらがな／カタカナ／英数記号
+menu/nTplCommon.dat/04DBA00_0_184x40_f8.png	運転士登録
+menu/nTplCommon.dat/04DC8E0_0_166x56_f9.png	総合評価／点
+menu/nTplCommon.dat/04F98E0_0_304x60_f9.png	運転士名
+menu/nTplCommon.dat/04FE280_0_406x24_f8.png	キッズモードの操作方法をこのダイヤで確認しよう!
+menu/nTplCommon.dat/04FF620_0_376x24_f8.png	Wii ならではの操作方法で電車を運転できます。
+menu/nTplCommon.dat/0500840_0_80x20_f8.png	ダイヤ選択
+menu/nTplCommon.dat/0500C80_0_916x24_f8.png	■700系こだま 山陽区間で走る16両編成の貴重なこだま号。700系車両を使用し、新大阪～岡山間を走り抜ける。
+menu/nTplCommon.dat/0503820_0_304x40_f8.png	キッズモード・ダイヤ選択
+menu/nTplCommon.dat/0505060_0_212x40_f8.png	キッズモード入門
+menu/nTplCommon.dat/05061C0_0_152x40_f8.png	キッズモード
+menu/nTplCommon.dat/0506E20_0_224x290_f9.png	セーブ/ロード Save / Load／コントローラ設定 Controller Setting／画面表示設定 Console Setting／サウンド設定 Sound Setting／リアルモード設定 RealMode Setting
+menu/nTplCommon.dat/0517000_0_224x290_f9.png	セーブ/ロード Save / Load／コントローラ設定 Controller Setting／画面表示設定 Console Setting／サウンド設定 Sound Setting／リアルモード設定 RealMode Setting
+menu/nTplCommon.dat/05271E0_0_224x290_f9.png	セーブ/ロード Save / Load／コントローラ設定 Controller Setting／画面表示設定 Console Setting／サウンド設定 Sound Setting／リアルモード設定 RealMode Setting
+menu/nTplCommon.dat/0539020_0_140x48_f9.png	操作タイプ設定／振動設定
+menu/nTplCommon.dat/053AD80_0_428x24_f8.png	これまでの電車で GO ! シリープと同じボタン配置です。
+menu/nTplCommon.dat/053C240_0_542x24_f8.png	本物の新幹線同様、左にブレーキ、右にマスコンを配置した設定です。
+menu/nTplCommon.dat/053DC40_0_300x24_f8.png	ワンハンドルタイプのボタン配置です。
+menu/nTplCommon.dat/053EB00_0_332x24_f8.png	コントローラの振動の強さを設定できます。
+menu/nTplCommon.dat/053FB40_0_328x24_f8.png	新幹線専用コントローラーのキー操作です。
+menu/nTplCommon.dat/0545200_0_96x20_f8.png	HOME メニュー
+menu/nTplCommon.dat/0545700_0_96x20_f8.png	ポーズメニュー
+menu/nTplCommon.dat/0546100_0_96x20_f8.png	マスコン↑
+menu/nTplCommon.dat/0546600_0_96x20_f8.png	マスコン↑
+menu/nTplCommon.dat/0547000_0_96x20_f8.png	ブレーキ↑
+menu/nTplCommon.dat/0547500_0_96x20_f8.png	マスコン全オフ
+menu/nTplCommon.dat/0547A00_0_96x20_f8.png	ブレーキ全オフ
+menu/nTplCommon.dat/0549300_0_148x20_f8.png	マスコン↑/ブレーキ↓
+menu/nTplCommon.dat/0549AA0_0_148x20_f8.png	マスコン↓/ブレーキ↑
+menu/nTplCommon.dat/054A240_0_148x20_f8.png	マスコン・プし一キ全オフ
+menu/nTplCommon.dat/054A9E0_0_148x20_f8.png	マスコンアップ・ダウン
+menu/nTplCommon.dat/054B180_0_148x20_f8.png	ブレーキアップ・ダウン
+menu/nTplCommon.dat/054C9C0_0_100x32_f9.png	中
+menu/nTplCommon.dat/056C2C0_0_188x40_f8.png	Wiiリモコン
+menu/nTplCommon.dat/056D240_0_288x40_f8.png	ヌンチャク・スタイル
+menu/nTplCommon.dat/056E940_0_284x40_f8.png	クラシック・スタイル
+menu/nTplCommon.dat/0570040_0_314x40_f8.png	Wii 新幹線専用コントローラ
+menu/nTplCommon.dat/05719C0_0_404x24_f8.png	距離メーターの表示を ON / OFF 切り換えできます。
+menu/nTplCommon.dat/0572D60_0_404x24_f8.png	速度メーターの表示を ON / OFF 切り換えできます。
+menu/nTplCommon.dat/0574100_0_416x24_f8.png	ナビグーションの表示を ON / OFF 切り換えできます。
+menu/nTplCommon.dat/0575500_0_424x24_f8.png	乗客・乗員の反応表示を ON / OFF 切り換えできます。
+menu/nTplCommon.dat/0576960_0_264x24_f8.png	画面表示位置の設定を行います。
+menu/nTplCommon.dat/059A680_0_116x20_f8.png	画面位置調
+menu/nTplCommon.dat/059ACA0_0_148x20_f8.png	標準の位置へ戻す
+menu/nTplCommon.dat/059B880_0_188x24_f8.png	元の位置に戻しますか?
+menu/nTplCommon.dat/059C200_0_40x20_f8.png	はい
+menu/nTplCommon.dat/059C460_0_56x20_f8.png	いいえ
+menu/nTplCommon.dat/059D1C0_0_108x72_f8.png	セーブ／ロード／オートセーブ
+menu/nTplCommon.dat/059E200_0_128x120_f8.png	距離メーター／速度メーター／ナビゲーション／運転評価／画面位置調整
+menu/nTplCommon.dat/05A0080_0_128x96_f8.png	運転中 BGM／BGM 調整／音声調整／効果音調整
+menu/nTplCommon.dat/05A1900_0_112x24_f8.png	リアルモード
+menu/nTplCommon.dat/05A1EC0_0_372x24_f8.png	セープやロード、オートセープの設定を行います。
+menu/nTplCommon.dat/05A30E0_0_348x24_f8.png	コントローラのキー配置の設定を行います。
+menu/nTplCommon.dat/05A41E0_0_460x24_f8.png	画面上の計器の表示設定と、表示位置の調整を行います。
+menu/nTplCommon.dat/05A5820_0_268x24_f8.png	サウンドに関する設定を行います。
+menu/nTplCommon.dat/05A6560_0_248x24_f8.png	プレイモードの設定を行います。
+menu/nTplCommon.dat/05A7180_0_164x16_f8.png	・ATCの予告はありません。
+menu/nTplCommon.dat/05A7740_0_276x32_f8.png	・ATCブレーキが作動しても減点になりません。／減速はATCブレーキに任せてください。
+menu/nTplCommon.dat/05A8940_0_260x16_f8.png	・停車前に手動でATCを確認してください。
+menu/nTplCommon.dat/05A9200_0_276x32_f8.png	・ATCブレーキが作動すると減点になります。／手動でブレーキをかけて減速してください。
+menu/nTplCommon.dat/05AA400_0_272x16_f8.png	・停車前にATC確認をする必要はありません。
+menu/nTplCommon.dat/05AAD00_0_444x24_f8.png	ON にすると、より現実の運転に近いプレイが楽しめます。
+menu/nTplCommon.dat/05AC280_0_556x24_f8.png	OFF にすると、現実の運転よりもグーム性を高めたプしイが楽しめます。
+menu/nTplCommon.dat/05ADD40_0_200x24_f8.png	リアルモード「 」
+menu/nTplCommon.dat/05AEBC0_0_300x24_f8.png	システムデータをセープ ( 保存 ) します。
+menu/nTplCommon.dat/05AFA80_0_332x24_f8.png	システムデータをロード ( 読み込み ) します。
+menu/nTplCommon.dat/05B0AC0_0_304x24_f8.png	ON にすると、自動でセープを行います。
+menu/nTplCommon.dat/05B1980_0_332x24_f8.png	OFF にすると、自動でセープを行いません。
+menu/nTplCommon.dat/05B29C0_0_364x24_f8.png	運転中のBGMを鳴らすかどうかを設定します。
+menu/nTplCommon.dat/05B3B80_0_276x24_f8.png	BGM のボリューム調整を行います。
+menu/nTplCommon.dat/05B4920_0_276x24_f8.png	音声のボリューム調整を行います。
+menu/nTplCommon.dat/05B56C0_0_288x24_f8.png	効果音のボリューム調整を行います。
+menu/nTplCommon.dat/05B64C0_0_148x40_f8.png	オプション
+menu/nTplCommon.dat/05B7500_0_164x24_f8.png	が追加されました
+menu/nTplCommon.dat/05B7D60_0_132x36_f8.png	新ダイヤ
+menu/nTplCommon.dat/05B8880_0_132x36_f8.png	鉄道模型
+menu/nTplCommon.dat/05B93A0_0_132x36_f8.png	鉄道映像
+menu/nTplCommon.dat/05B9EC0_0_132x36_f8.png	鉄道写真
+menu/nTplCommon.dat/05CDEA0_0_188x24_f8.png	ハイスコア更新!!
+menu/nTplCommon.dat/05CE820_0_438x204_f8.png	キャラクターボーナス +30点／しっぱい回数 回／減点 点／合計ボーナス点数 点
+menu/nTplCommon.dat/05D9B60_0_66x24_f8.png	新大阪
+menu/nTplCommon.dat/05D9F40_0_66x24_f8.png	新神戸
+menu/nTplCommon.dat/05DA320_0_66x24_f8.png	西明石
+menu/nTplCommon.dat/05DA9C0_0_46x24_f8.png	相生
+menu/nTplCommon.dat/05DAC80_0_46x24_f8.png	岡山
+menu/nTplCommon.dat/05DAF40_0_66x24_f8.png	新倉敷
+menu/nTplCommon.dat/05DBC80_0_66x24_f8.png	東広島
+menu/nTplCommon.dat/05DC060_0_46x24_f8.png	広島
+menu/nTplCommon.dat/05DC700_0_46x24_f8.png	徳山
+menu/nTplCommon.dat/05DC9C0_0_66x24_f8.png	新山口
+menu/nTplCommon.dat/05DD060_0_66x24_f8.png	新下関
+menu/nTplCommon.dat/05DD700_0_46x24_f8.png	博多
+menu/nTplCommon.dat/05DD9C0_0_66x24_f8.png	博多南
+menu/nTplCommon.dat/05DDDA0_0_90x24_f8.png	博多総合車両所
+menu/nTplCommon.dat/05DE2A0_0_372x20_f8.png	停車駅数 コンティニュー回数
+menu/nTplCommon.dat/05DF4C0_0_238x20_f8.png	キャラクター発見ボーナス +点
+menu/nTplCommon.dat/05E0080_0_134x22_f8.png	ダイヤの正確さ
+menu/nTplCommon.dat/05E0760_0_80x22_f8.png	乗り心地
+menu/nTplCommon.dat/05E0BA0_0_80x22_f8.png	停止位置
+menu/nTplCommon.dat/05E0FE0_0_154x22_f8.png	標識・信号を守る
+menu/nTplCommon.dat/05E17E0_0_136x22_f8.png	安全性への配慮
+menu/nTplCommon.dat/05E1EC0_0_98x22_f8.png	運転士喚呼
+menu/nTplCommon.dat/05E2420_0_148x22_f8.png	適正速度のキープ
+menu/nTplCommon.dat/05E9360_0_100x22_f8.png	総合点数 点
+menu/nTplCommon.dat/05E98C0_0_354x40_f9.png	合計点 点
+menu/nTplCommon.dat/067AFC0_0_560x166_f9.png	電車でGO!新幹線EX 山陽新幹線編(로고)
+menu/nTplSaveLoad.dat/00095E0_0_310x20_f8.png	Wii 本体保存メモリをチェックしています。
+menu/nTplSaveLoad.dat/000A500_0_260x44_f8.png	システムデータが既に存在します。／上書きしますか？
+menu/nTplSaveLoad.dat/000BE40_0_404x46_f8.png	システムデータをセープ中です。／電源ボタンやリセットボタンにさわらないで下さい。
+menu/nTplSaveLoad.dat/000E500_0_176x20_f8.png	セーブが終了しました。
+menu/nTplSaveLoad.dat/000EDC0_0_260x44_f8.png	システムデータが破損しています。／壊れたデータを削除しますか?
+menu/nTplSaveLoad.dat/0010700_0_380x96_f8.png	Wii 本体保存メモリの空き容量が不足しています。／システムデータをセープするには、／1 プロックの空き容量が必要です。／Wii メニュー画面に戻りますか？
+menu/nTplSaveLoad.dat/0014F80_0_422x96_f8.png	Wii本体保存メモリの空きファイル数が不足しています。／セーブデータ画面でファイルをSDカードに移動するか、／ファイルを消去してください。／Wiiメニュー画面に戻りますか？
+menu/nTplSaveLoad.dat/0019F80_0_296x44_f8.png	システムデータが存在しません。／新しいシステムデータを作成しますか？
+menu/nTplSaveLoad.dat/001BBC0_0_254x44_f8.png	このままだとセーブできませんが／よろしいですか？
+menu/nTplSaveLoad.dat/001D440_0_368x44_f8.png	Wii 本体保存メモリが壊れました。／詳しくは Wii 本体の取扱説明書をあ読み下さい。
+menu/nTplSaveLoad.dat/001F740_0_266x20_f8.png	壊れたデータの削除を行いました。
+menu/nTplSaveLoad.dat/0020480_0_174x20_f8.png	セープに失敗しました。
+menu/nTplSaveLoad.dat/0020D40_0_282x20_f8.png	壊れたデータの削除に失敗しました。
+menu/nTplSaveLoad.dat/0021B40_0_254x20_f8.png	システムデータをロードしますか？
+menu/nTplSaveLoad.dat/00227C0_0_306x20_f8.png	システムデータのロードが終了しました。
+menu/nTplSaveLoad.dat/00236E0_0_260x20_f8.png	システムデータが見つかりません。
+menu/nTplSaveLoad.dat/00243C0_0_304x20_f8.png	システムデータのロードに失敗しました。
+menu/nTplSaveLoad.dat/0025280_0_364x20_f8.png	このままセーブを行わずゲームを再開しますか？
+menu/nTplSaveLoad.dat/0026440_0_368x44_f8.png	Wii 本体保存メモリの空き容量が異常です。／詳しくは Wii 本体の取扱説明書をあ読み下さい。
+menu/nTplSaveLoad.dat/0028740_0_376x44_f8.png	Wii 本体保存メモリの空きファイル数が異常です。／詳しくは Wii 本体の取扱説明書をあ読み下さい。
+menu/nTplSaveLoad.dat/002AC40_0_56x20_f8.png	いいえ
+menu/nTplSaveLoad.dat/002AF60_0_38x20_f8.png	はい
+menu/nTplSaveLoad.dat/002B1C0_0_448x148_f8.png	本製品で収録されているデータは、／2006 年 3 月現在のデータを使用してあります。／グーム内容は実際の運行・運転をグーム用にアしンジ／してありますので、実際とは異なる部分があります。
+system/homebtn.dat/0056780_0_136x40_f0.png	とじる
+system/homebtn.dat/0057260_0_240x64_f0.png	Wii メニューへ
+system/homebtn.dat/00590A0_0_240x64_f0.png	リセット
+system/homebtn.dat/005AEE0_0_424x32_f0.png	Wii リモコンの設定
+system/homebtn.dat/005C9A0_0_424x32_f0.png	Wiiリモコンの設定をとじる
+system/homebtn.dat/005E460_0_200x32_f0.png	はい
+system/homebtn.dat/005F120_0_200x32_f0.png	いいえ
+system/homebtn.dat/0061E60_0_320x64_f0.png	つなぎなおす
+system/homebtn.dat/00654E0_0_112x64_f0.png	振動
+system/homebtn.dat/0066320_0_112x64_f0.png	接続
+system/homebtn.dat/0067B60_0_368x40_f0.png	HOMEボタンメニュー
+system/loading_tex.dat/0000040_0_420x232_f14.png	☆キッズモードの操作について☆／キッズモード運転中は、／Wiiリモコンを縦に持って操作します。／通常の操作方法と異なる／専用の操作方法になりますので、／ご注意下さい。
+system/loading_tex.dat/000CBA0_0_410x254_f14.png	仕業検査／マスコン・ブレーキレバーを／スタート位置に合わせてください
+system/warntpl.dat/00000A0_0_440x46_f8.png	Wiiリモコンからクラシックコントローラが取り外されました。／操作方法を「Wiiリモコンのみの操作」に変更します。
+system/warntpl.dat/0002A60_0_410x46_f8.png	Wii リモコンにクラシックコントローラが接続されました。／操作方法を「クラシックスタイル」に変更します。
+system/warntpl.dat/00051E0_0_400x46_f8.png	Wiiリモコンからヌンチャクが取り外されました。／操作方法を「Wiiリモコンのみの操作」に変更します。
+system/warntpl.dat/00077E0_0_368x46_f8.png	Wii リモコンにヌンチャクが接続されました。／操作方法を「ヌンチャクスタイル」に変更します。
+system/warntpl.dat/0009AE0_0_456x46_f8.png	Wiiリモコンから新幹線専用コントローラが取り外されました。／操作方法を「Wiiリモコンのみの操作」に変更します。
+system/warntpl.dat/000C620_0_426x46_f8.png	Wii リモコンに新幹線専用コントローラが接続されました。／操作方法を「専用コントローラ」に変更します。
+system/warntpl.dat/000EF20_0_334x46_f8.png	Wiiリモコンの通信が切れました。／本体とWiiリモコンをつなぎなおして下さい。
