@@ -191,6 +191,29 @@ def title_split(a, parts):
     return np.asarray(im)
 
 
+
+def italic_in(im, t, x0, x1, h, col, stroke=(32, 32, 32), y0=0):
+    """기울인 굵은 글(원본 엔딩·점수 꼴) 을 [x0,x1) 안에 — 높이 h−4, 넘치면 장평"""
+    for z in range(int((h - 4) * 1.2), 7, -1):
+        m = T.mask(t, z, T.EB, 0.22)
+        if m.height <= h - 4: break
+    if m.width > x1 - x0 - 2: m = m.resize((x1 - x0 - 2, m.height), Image.LANCZOS)
+    T.draw(im, m, x0 + 1 + (x1 - x0 - 2 - m.width) // 2, y0 + (h - m.height) // 2, col, stroke, 1, None)
+
+
+def staff_name(a, t):
+    """엔딩 오른쪽 구간 이름(역): 원문 글자 범위 안에(다이아 선택과 같은 이유)"""
+    h, w = a.shape[:2]; xs = np.nonzero((a[..., 3] > 60).any(0))[0]; im = Image.new('RGBA', (w, h), (0, 0, 0, 0))
+    italic_in(im, t, int(xs.min()), int(xs.max()) + 1, h, bright(a, (0, 0, w, h))); return np.asarray(im)
+
+
+def staff_score(a):
+    """엔딩 «0~9 合計点» 시트: 숫자는 그대로, 合·計·点 칸에 합·계·점(게임이 合計点 / 点 칸을 잘라 씀)"""
+    h, w = a.shape[:2]; o = a.copy(); o[:, 209:] = 0; im = Image.fromarray(o); col = bright(a, (209, 0, w, h))
+    for t, x0, x1 in (('합', 209, 240), ('계', 240, 272), ('점', 272, 304)): italic_in(im, t, x0, x1, h, col)
+    return np.asarray(im)
+
+
 HILITE = {'・ATCの予告': '없습니다', '・ATCブレーキが作動しても': '감점되지 않습니다', '・ATCブレーキが作動すると': '감점됩니다'}
 
 
@@ -224,6 +247,8 @@ def special(a, s, k):
     if sz == '398x22' and JP_CELL[sz] in s:                                      # 한자 넷 자리 통째로 비우고 칸 안쪽에만
         o = a.copy(); o[:, 219:388] = 0; return labels(o, CELLS[sz], bright(a, (222, 0, 385, 22)), clear=True), '칸 그림'
     if s in TITLE_SPLIT: return title_split(a, TITLE_SPLIT[s]), '큰 제목'
+    if s.startswith('総合点数'):                                                   # 종합 평가: 게임이 앞 네 글자(숫자 앞)·마지막 点(숫자 뒤)을 잘라 씀(경계 76~79, 2026-11-02)
+        return labels(np.zeros_like(a), [((1, 0, 76, 22), '총점'), ((80, 0, 99, 22), '점')], bright(a, (0, 0, w, h)), clear=True), '칸 그림'
     for key, (cut, first) in DESC.items():                                       # 포즈 메뉴 설명: 게임이 그림을 원문 줄바꿈 x 에서 잘라 두 줄로(2026-11-02)
         if s.startswith(key) and k.startswith(first):
             t2 = k[len(first):].strip(); out = np.zeros_like(a)

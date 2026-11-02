@@ -245,6 +245,16 @@ def main():
         a = np.asarray(Image.open(os.path.join(TEX, p)).convert('RGBA')).copy()
         for r_, oo, j_ in [('menu/nTplCommon.dat', o_, 0)] + dup.get(p, []):
             d = buf(r_); enc_index(d, tpl.images(bytes(d), oo)[j_], S2.stn_name(a, t))
+    SR = 'game2d/staff_tex.dat'                                                   # 엔딩 오른쪽 구간 점수만(스태프 이름·직함은 원본, 2026-11-02 하스피)
+    STAFF = {0x48FA0: '신오사카', 0x49320: '신코베', 0x496A0: '니시아카시', 0x49A20: '히메지', 0x49CE0: '아이오이', 0x49FA0: '오카야마', 0x4A260: '신쿠라시키',
+             0x4A5E0: '후쿠야마', 0x4A8A0: '신오노미치', 0x4AC20: '미하라', 0x4AEE0: '히가시히로시마', 0x4B260: '히로시마', 0x4B520: '신이와쿠니', 0x4B8A0: '토쿠야마',
+             0x4BB60: '신야마구치', 0x4BEE0: '아사', 0x4C1A0: '신시모노세키', 0x4C520: '코쿠라', 0x4C7E0: '하카타', 0x4CAA0: '하카타미나미', 0x4CE20: '하카타 종합차량소',
+             0x468A0: None, 0x47C20: None}
+    for o_, t in STAFF.items():
+        p = SR + '/' + [x for x in os.listdir(os.path.join(TEX, SR)) if x.startswith('%07X_0_' % o_)][0]
+        a = np.asarray(Image.open(os.path.join(TEX, p)).convert('RGBA')).copy(); new = S2.staff_score(a) if t is None else S2.staff_name(a, t)
+        for r_, oo, j_ in [(SR, o_, 0)] + dup.get(p, []):
+            d = buf(r_); enc_index(d, tpl.images(bytes(d), oo)[j_], new)
     HS = 'menu/nTplCommon.dat/02EC560_0_116x52_f8.png'                          # 정보 화면 하이스코어 칸의 点(img_map 누락, 2026-11-02)
     a = np.asarray(Image.open(os.path.join(TEX, HS)).convert('RGBA')).copy(); S2.mark(a.copy(), (78, 17, 102, 42), 62, '점', 17, S2.bright(a, (80, 19, 100, 40)), (90, 30))
     for r_, o_, j_ in [('menu/nTplCommon.dat', 0x2EC560, 0)] + dup.get(HS, []):
