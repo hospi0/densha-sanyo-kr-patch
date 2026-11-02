@@ -205,6 +205,8 @@ def special(a, s, k):
             if g.width > w - 5: g = R.text_img(k, 15, (w - 5) / g.width)
             g = g.crop(g.getbbox()); put(im, g, 2, (h - g.height) // 2, bright(a, (0, 0, w, h)), (20, 20, 24), True); return np.asarray(im), '메뉴 항목'
         return None, '메뉴 항목'
+    if s == 'リアルモード「 」':                                                  # 「 」 사이는 게임이 ON/OFF 를 찍는 자리 — 괄호는 원본 그대로, 앞 낱말만(2026-11-02)
+        out = a.copy(); n, _ = R.render(a[:, :110].copy(), ['리얼 모드']); out[:, :110] = n; return out, '판'
     if sz == '76x120':                                                           # 정보 화면 라벨: 원본처럼 남색 글자 + 연한 테 — 4배로 그려 줄임(하스피 «고해상도로», 2026-11-02), 줄마다 원문 폭 안
         from PIL import ImageFilter
         Q = 4; out = np.zeros((h, w, 4), np.uint8); f = ImageFont.truetype(R.F, 15 * Q)
